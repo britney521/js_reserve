@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>开发者工具检测（堆栈+console.clear）</title>
+    <style>
+        #show {
+            font-size: 20px;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #f5f5f5;
+        }
+        .open { color: #e53e3e; background-color: #fee2e2; }
+        .close { color: #16a34a; background-color: #dcfce7; }
+    </style>
+</head>
+<body>
+<div id="show">检测中...</div>
+
+<script>
+
+// 直接将 clear 方法覆盖为空函数
+console.clear = function() {};
+
+// 顺便打印一下，证明 Hook 成功
+console.log("console.clear 已被阉割，性能检测失效。");
+
+
+// 让时间永远停止，这样 end - start 永远是 0
+window.performance.now = function() { return 0; };
+// ---------------------方法---------------------
+
+// 2. 基于console.clear的辅助检测（兜底）
+function detectByConsoleClear() {
+    let isOpen = false;
+    const threshold = 5;
+    const start = performance.now();
+    for (let i = 0; i < 100; i++) {
+        console.clear();
+    }
+    const end = performance.now();
+    if (end - start > threshold) {
+        isOpen = true;
+    }
+    return isOpen;
+}
+
+// 3. 综合检测（双方案互验，提升准确率）
+function detectDevTools() {
+    const showElement = document.getElementById('show');
+
+    const isOpen = detectByConsoleClear();
+
+    // 更新页面显示
+    if (isOpen) {
+        console.log('🔍 开发者工具已打开（堆栈+console.clear 检测）');
+        showElement.textContent = '⚠️ 开发者工具已打开';
+        showElement.className = 'open';
+    } else {
+        console.log('✅ 开发者工具未打开（堆栈+console.clear 检测）');
+        showElement.textContent = '✅ 开发者工具未打开';
+        showElement.className = 'close';
+    }
+}
+
+// 初始检测
+detectDevTools();
+
+// 实时检测：窗口变化 + 定时检测
+window.addEventListener('resize', detectDevTools);
+setInterval(detectDevTools, 1000);
+</script>
+</body>
+</html>

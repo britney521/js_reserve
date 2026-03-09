@@ -1,0 +1,6 @@
+搜索 xm-sign
+
+浏览器指纹hw5 js传来固定值
+发现 请求 https://hdaa.shuzilm.cn/report 接口返回 一个加密字符串  参数是对 浏览器指纹 _0x4e9486 各种信息 key 是 'm9ZtRrz:qujT8@da'  aes加密
+
+aes 解密加密字符串 得到 sig 即为 xm-sign 拼接的后半段

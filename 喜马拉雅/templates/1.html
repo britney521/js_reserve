@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>xm_sign 加密示例</title>
+  <!-- 2. 反混淆文件（你原来就有） -->
+  <script src="{{ url_for('static', filename='xmsign.js') }}"></script>
+
+  <!-- 3. 业务代码 -->
+  <script>
+    /* ===== 与提问相同的 SDK 封装 ===== */
+    const n = "t6pfoml9679z52kqw93uqu75eflqdg1bykhl";
+    const o = "h5_goyxvzyohd";
+
+    const t = {};
+    t.dwsSetConfig = () => window.du_web_sdk && window.du_web_sdk.setConfig({deb: "true"});
+    t.dwsGetBrowserId = () => "D2U9qkIfZDRb6kI0MdFy/2ME2YDNkmugkYSmw2YoM5OggXa5";
+    t.dwsGetSessionID = () =>
+      new Promise(resolve => {
+        if (window.du_web_sdk) {
+          window.du_web_sdk.getSessionID(n, o, "", sid => resolve(sid || ""));
+        } else {
+          resolve("");
+        }
+      });
+
+    /* ===== 异步拿值 → 请求 Flask → 回填页面 ===== */
+    (async () => {
+      t.dwsSetConfig();                              // 可选：打开调试
+      const browserID = t.dwsGetBrowserId();         // 同步
+      const sessionID = await t.dwsGetSessionID();   // 异步
+      const xm_sign = `${browserID}&&${sessionID}`;
+
+      console.log("原始 xm_sign =", xm_sign);
+      // 你也可以再加密一次，这里只演示原串
+      document.getElementById("result").textContent = xm_sign;
+      console.log("xm_sign =", xm_sign);
+
+    })();
+  </script>
+</head>
+<body>
+<div id="result"></div>
+</body>
+</html>

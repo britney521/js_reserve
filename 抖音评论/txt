@@ -1,0 +1,18 @@
+{
+    "aid": 6383,
+    "pageId": 6241,
+    "paths": [
+        "^/webcast/",
+        "^/aweme/v1/",
+        "^/aweme/v2/",
+        "/douplus/",
+        "/v1/message/send",
+        "^/live/",
+        "^/captcha/",
+        "^/ecom/",
+        "^/luna/pc"
+    ],
+    "boe": false,
+    "ddrt": 8.5,
+    "ic": 8.5
+}

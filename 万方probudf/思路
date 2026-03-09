@@ -1,0 +1,489 @@
+
+
+// 1. 获取请求消息并计算长度
+// (0, o.a) 是一种调用技巧，确保函数调用时的this上下文
+// t 被赋值为请求消息的Uint8Array，o 是消息的长度
+for (o = (t = (0, o.a)(t.getRequestMessage())).length,
+     p = [0, 0, 0, 0],          // 创建4字节的数组来存储长度
+     s = new Uint8Array(5 + o), // 创建新数组：1字节类型 + 4字节长度 + 消息内容
+     a = 3; 0 <= a; a--)        // 从高位到低位处理长度字节
+    p[a] = o % 256,             // 将长度值分解为字节
+    o >>>= 8;                   // 无符号右移8位，处理下一个字节
+
+// 2. 将长度字节写入结果数组
+if (s.set(new Uint8Array(p), 1), // 在位置1写入长度字节（跳过类型字节）
+    s.set(t, 5),                 // 在位置5写入原始消息内容
+    t = s,                       // 将t指向最终的结果数组
+
+ 传送 t 转 16进制后 需要 切去 前5 个字节
+
+
+
+ 请求参数序列化：proto.SearchService.SearchRequest.serializeBinaryToWriter
+
+   protos.SearchService.SearchResponse.serializeBinaryToWriter = function(e, t) {
+            var r = void 0;
+            (r = e.getStatus()) && t.writeBool(1, r),
+            (r = e.getMessage()).length > 0 && t.writeString(2, r),
+            0 !== (r = e.getCount()) && t.writeInt64(3, r),
+            (r = e.getResourcesList()).length > 0 && t.writeRepeatedMessage(4, r, s.Resource.serializeBinaryToWriter),
+            (r = e.getGroupCustomList()).length > 0 && t.writeRepeatedString(5, r)
+        }
+响应结果反序列化：proto.SearchService.SearchResponse.deserializeBinary
+
+ protos.SearchService.SearchResponse.deserializeBinaryFromReader = function(e, t) {
+            for (; t.nextField() && !t.isEndGroup(); ) {
+                switch (t.getFieldNumber()) {
+                case 1:
+                    var r = t.readBool();
+                    e.setStatus(r);
+                    break;
+                case 2:
+                    r = t.readString();
+                    e.setMessage(r);
+                    break;
+                case 3:
+                    r = t.readInt64();
+                    e.setCount(r);
+                    break;
+                case 4:
+                    r = new s.Resource;
+                    t.readMessage(r, s.Resource.deserializeBinaryFromReader),
+                    e.addResources(r);
+                    break;
+                case 5:
+                    r = t.readString();
+                    e.addGroupCustom(r);
+                    break;
+                default:
+                    t.skipField()
+                }
+            }
+            return e
+        }
+
+
+        protos.SearchService.SearchResponse.toObject = function(e, t) {
+            var r = {
+                status: o.Message.getFieldWithDefault(t, 1, !1),
+                message: o.Message.getFieldWithDefault(t, 2, ""),
+                count: o.Message.getFieldWithDefault(t, 3, 0),
+                resourcesList: o.Message.toObjectList(t.getResourcesList(), s.Resource.toObject, e),
+                groupCustomList: o.Message.getField(t, 5)
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.Resource.toObject = function(e, t) {
+            var r, i = {
+                type: o.Message.getFieldWithDefault(t, 1, ""),
+                originbuttonsList: o.Message.toObjectList(t.getOriginbuttonsList(), protos.com.wanfangdata.resource.OriginButton.toObject, e),
+                uid: o.Message.getFieldWithDefault(t, 3, ""),
+                claw: (r = t.getClaw()) && h.Claw.toObject(e, r),
+                conference: (r = t.getConference()) && p.Conference.toObject(e, r),
+                cstad: (r = t.getCstad()) && f.Cstad.toObject(e, r),
+                magazine: (r = t.getMagazine()) && s.Magazine.toObject(e, r),
+                meeting: (r = t.getMeeting()) && a.Meeting.toObject(e, r),
+                nstr: (r = t.getNstr()) && g.Nstr.toObject(e, r),
+                patent: (r = t.getPatent()) && d.Patent.toObject(e, r),
+                periodical: (r = t.getPeriodical()) && c.Periodical.toObject(e, r),
+                standard: (r = t.getStandard()) && l.Standard.toObject(e, r),
+                thesis: (r = t.getThesis()) && u.Thesis.toObject(e, r),
+                thesiscatalog: (r = t.getThesiscatalog()) && m.ThesisCatalog.toObject(e, r),
+                video: (r = t.getVideo()) && y.Video.toObject(e, r),
+                localchronicle: (r = t.getLocalchronicle()) && b.LocalChronicle.toObject(e, r),
+                localchronicleitem: (r = t.getLocalchronicleitem()) && v.LocalChronicleItem.toObject(e, r),
+                book: (r = t.getBook()) && S.Book.toObject(e, r)
+            };
+            return e && (i.$jspbMessageInstance = t),
+            i
+        }
+
+
+        protos.com.wanfangdata.resource.OriginButton.toObject = function(e, t) {
+            var r = {
+                type: o.Message.getFieldWithDefault(t, 1, 0),
+                thirdpartyList: o.Message.toObjectList(t.getThirdpartyList(), protos.com.wanfangdata.resource.ThirdParty.toObject, e),
+                info: o.Message.getFieldWithDefault(t, 3, ""),
+                typeName: o.Message.getFieldWithDefault(t, 4, "")
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.ThirdParty.toObject = function(e, t) {
+            var r = {
+                url: o.Message.getFieldWithDefault(t, 1, ""),
+                showname: o.Message.getFieldWithDefault(t, 2, ""),
+                platform: o.Message.getFieldWithDefault(t, 4, ""),
+                id: o.Message.getFieldWithDefault(t, 5, "")
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.Claw.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                type: o.Message.getFieldWithDefault(t, 2, ""),
+                titleList: o.Message.getField(t, 3),
+                issueunitList: o.Message.getField(t, 4),
+                issuenumber: o.Message.getFieldWithDefault(t, 5, ""),
+                singlesourcedb: o.Message.getFieldWithDefault(t, 12, ""),
+                publishyear: o.Message.getFieldWithDefault(t, 31, 0),
+                dbid: o.Message.getFieldWithDefault(t, 26, ""),
+                downloadcount: o.Message.getFieldWithDefault(t, 28, 0)
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.Conference.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                titleList: o.Message.getField(t, 3),
+                creatorList: o.Message.getField(t, 4),
+                organizationnormList: o.Message.getField(t, 8),
+                originalorganizationList: o.Message.getField(t, 10),
+                classcodeList: o.Message.getField(t, 12),
+                keywordsList: o.Message.getField(t, 16),
+                foreignkeywordsList: o.Message.getField(t, 17),
+                machinedkeywordsList: o.Message.getField(t, 18),
+                keywordforsearchList: o.Message.getField(t, 19),
+                abstractList: o.Message.getField(t, 20),
+                citedcount: o.Message.getFieldWithDefault(t, 21, 0),
+                servicemode: o.Message.getFieldWithDefault(t, 26, 0),
+                hasfulltext: o.Message.getFieldWithDefault(t, 27, !1),
+                publishyear: o.Message.getFieldWithDefault(t, 28, 0),
+                pageno: o.Message.getFieldWithDefault(t, 30, ""),
+                fulltextpath: o.Message.getFieldWithDefault(t, 31, ""),
+                doi: o.Message.getFieldWithDefault(t, 32, ""),
+                authororgList: o.Message.getField(t, 33),
+                thirdpartyurlList: o.Message.getField(t, 34),
+                language: o.Message.getFieldWithDefault(t, 35, ""),
+                meetingtitleList: o.Message.getField(t, 37),
+                meetingyear: o.Message.getFieldWithDefault(t, 40, ""),
+                metadataviewcount: o.Message.getFieldWithDefault(t, 43, 0),
+                thirdpartylinkclickcount: o.Message.getFieldWithDefault(t, 44, 0),
+                downloadcount: o.Message.getFieldWithDefault(t, 45, 0),
+                exportcount: o.Message.getFieldWithDefault(t, 46, 0),
+                delivercount: o.Message.getFieldWithDefault(t, 63, 0),
+                type: o.Message.getFieldWithDefault(t, 2, ""),
+                singlesourcedb: o.Message.getFieldWithDefault(t, 47, "")
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.Cstad.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                titleList: o.Message.getField(t, 3),
+                creatorList: o.Message.getField(t, 4),
+                organizationList: o.Message.getField(t, 27),
+                classcodeList: o.Message.getField(t, 29),
+                abstractList: o.Message.getField(t, 32),
+                keywordsList: o.Message.getField(t, 33),
+                publishyear: o.Message.getFieldWithDefault(t, 35, 0),
+                achievementtype: o.Message.getFieldWithDefault(t, 38, ""),
+                tradenameList: o.Message.getField(t, 42),
+                province: o.Message.getFieldWithDefault(t, 46, ""),
+                type: o.Message.getFieldWithDefault(t, 2, "")
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.Magazine.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                titleList: o.Message.getField(t, 2),
+                issn: o.Message.getFieldWithDefault(t, 13, ""),
+                cn: o.Message.getFieldWithDefault(t, 14, ""),
+                introduction: o.Message.getFieldWithDefault(t, 21, ""),
+                classcodeList: o.Message.getField(t, 22),
+                editorial: o.Message.getFieldWithDefault(t, 23, ""),
+                sponsorList: o.Message.getField(t, 26),
+                coreperiodicalList: o.Message.getField(t, 32),
+                impactfactor: +o.Message.getFieldWithDefault(t, 33, 0),
+                articleno: o.Message.getFieldWithDefault(t, 34, 0),
+                downloadcount: o.Message.getFieldWithDefault(t, 35, 0),
+                citedcount: o.Message.getFieldWithDefault(t, 36, 0),
+                coreperiodicalyearList: o.Message.getField(t, 44)
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.Meeting.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                titleList: o.Message.getField(t, 2),
+                initial: o.Message.getFieldWithDefault(t, 3, ""),
+                sponsorList: o.Message.getField(t, 4),
+                sponsortypeList: o.Message.getField(t, 5),
+                no: o.Message.getFieldWithDefault(t, 6, ""),
+                level: o.Message.getFieldWithDefault(t, 7, ""),
+                venue: o.Message.getFieldWithDefault(t, 8, ""),
+                classcodeList: o.Message.getField(t, 9),
+                seriesList: o.Message.getField(t, 10),
+                date: o.Message.getFieldWithDefault(t, 11, ""),
+                year: o.Message.getFieldWithDefault(t, 12, 0),
+                citedcount: o.Message.getFieldWithDefault(t, 13, 0),
+                downloadcount: o.Message.getFieldWithDefault(t, 14, 0),
+                articleno: o.Message.getFieldWithDefault(t, 15, 0),
+                searchfieldList: o.Message.getField(t, 16)
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.Nstr.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                titleList: o.Message.getField(t, 2),
+                creatorList: o.Message.getField(t, 3),
+                organizationList: o.Message.getField(t, 5),
+                classcodeList: o.Message.getField(t, 7),
+                keywordsList: o.Message.getField(t, 8),
+                foreignkeywordsList: o.Message.getField(t, 9),
+                abstractList: o.Message.getField(t, 11),
+                reportrange: o.Message.getFieldWithDefault(t, 19, ""),
+                approvaldate: o.Message.getFieldWithDefault(t, 21, ""),
+                pagenum: o.Message.getFieldWithDefault(t, 24, ""),
+                language: o.Message.getFieldWithDefault(t, 26, ""),
+                type: o.Message.getFieldWithDefault(t, 31, ""),
+                preparationtime: o.Message.getFieldWithDefault(t, 27, ""),
+                singlesourcedb: o.Message.getFieldWithDefault(t, 36, ""),
+                obtainwayList: o.Message.getField(t, 49),
+                thirdpartyurl: o.Message.getFieldWithDefault(t, 54, ""),
+                isoa: o.Message.getFieldWithDefault(t, 55, !1),
+                dbtype: o.Message.getFieldWithDefault(t, 56, "")
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.Patent.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                titleList: o.Message.getField(t, 2),
+                patentcode: o.Message.getFieldWithDefault(t, 3, ""),
+                publicationno: o.Message.getFieldWithDefault(t, 4, ""),
+                inventorList: o.Message.getField(t, 5),
+                applicantList: o.Message.getField(t, 7),
+                classcodeList: o.Message.getField(t, 10),
+                abstractList: o.Message.getField(t, 12),
+                patenttype: o.Message.getFieldWithDefault(t, 13, ""),
+                singlesourcedb: o.Message.getFieldWithDefault(t, 14, ""),
+                applicationdate: o.Message.getFieldWithDefault(t, 15, ""),
+                publicationdate: o.Message.getFieldWithDefault(t, 16, ""),
+                countryorganization: o.Message.getFieldWithDefault(t, 17, ""),
+                language: o.Message.getFieldWithDefault(t, 24, ""),
+                fulltextpath: o.Message.getFieldWithDefault(t, 25, ""),
+                hasfulltext: o.Message.getFieldWithDefault(t, 26, !1),
+                type: o.Message.getFieldWithDefault(t, 27, ""),
+                downloadcount: o.Message.getFieldWithDefault(t, 31, 0),
+                hasxml: o.Message.getFieldWithDefault(t, 48, !1),
+                oldpatentcode: o.Message.getFieldWithDefault(t, 53, ""),
+                pubdocdb: o.Message.getFieldWithDefault(t, 56, "")
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.Periodical.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                titleList: o.Message.getField(t, 2),
+                creatorList: o.Message.getField(t, 3),
+                scholaridList: o.Message.getField(t, 5),
+                foreigncreatorList: o.Message.getField(t, 6),
+                organizationnormList: o.Message.getField(t, 8),
+                originalorganizationList: o.Message.getField(t, 10),
+                originalclasscodeList: o.Message.getField(t, 12),
+                keywordsList: o.Message.getField(t, 16),
+                foreignkeywordsList: o.Message.getField(t, 17),
+                abstractList: o.Message.getField(t, 20),
+                citedcount: o.Message.getFieldWithDefault(t, 21, 0),
+                periodicalid: o.Message.getFieldWithDefault(t, 22, ""),
+                periodicaltitleforsearchList: o.Message.getField(t, 23),
+                periodicaltitleList: o.Message.getField(t, 24),
+                isoa: o.Message.getFieldWithDefault(t, 26, !1),
+                servicemode: o.Message.getFieldWithDefault(t, 31, 0),
+                hasfulltext: o.Message.getFieldWithDefault(t, 32, !1),
+                publishyear: o.Message.getFieldWithDefault(t, 33, 0),
+                issue: o.Message.getFieldWithDefault(t, 34, ""),
+                pageno: o.Message.getFieldWithDefault(t, 37, ""),
+                coreperiodicalList: o.Message.getField(t, 39),
+                fulltextpath: o.Message.getFieldWithDefault(t, 40, ""),
+                doi: o.Message.getFieldWithDefault(t, 41, ""),
+                authororgList: o.Message.getField(t, 42),
+                thirdpartyurlList: o.Message.getField(t, 43),
+                language: o.Message.getFieldWithDefault(t, 44, ""),
+                issn: o.Message.getFieldWithDefault(t, 45, ""),
+                metadataviewcount: o.Message.getFieldWithDefault(t, 48, 0),
+                thirdpartylinkclickcount: o.Message.getFieldWithDefault(t, 49, 0),
+                downloadcount: o.Message.getFieldWithDefault(t, 50, 0),
+                exportcount: o.Message.getFieldWithDefault(t, 56, 0),
+                delivercount: o.Message.getFieldWithDefault(t, 70, 0),
+                publishstatus: o.Message.getFieldWithDefault(t, 53, ""),
+                type: o.Message.getFieldWithDefault(t, 54, ""),
+                singlesourcedbList: o.Message.getField(t, 55),
+                sourcedbList: o.Message.getField(t, 25),
+                sourcedbstatusList: o.Message.getField(t, 79),
+                obtainwayList: o.Message.getField(t, 74),
+                dbtype: o.Message.getFieldWithDefault(t, 81, ""),
+                ismultisource: o.Message.getFieldWithDefault(t, 82, !1)
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+         protos.com.wanfangdata.resource.Standard.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                titleList: o.Message.getField(t, 2),
+                draftscompList: o.Message.getField(t, 3),
+                drafterList: o.Message.getField(t, 51),
+                issueorganizationList: o.Message.getField(t, 6),
+                status: o.Message.getFieldWithDefault(t, 7, ""),
+                classcodeList: o.Message.getField(t, 8),
+                keywordsList: o.Message.getField(t, 10),
+                foreignkeywordsList: o.Message.getField(t, 11),
+                abstractList: o.Message.getField(t, 13),
+                sourcedbList: o.Message.getField(t, 15),
+                standardorganization: o.Message.getFieldWithDefault(t, 18, ""),
+                originalid: o.Message.getFieldWithDefault(t, 31, ""),
+                singlesourcedb: o.Message.getFieldWithDefault(t, 35, ""),
+                publishdate: o.Message.getFieldWithDefault(t, 36, ""),
+                standardtype: o.Message.getFieldWithDefault(t, 17, ""),
+                isforce: o.Message.getFieldWithDefault(t, 19, ""),
+                hasfulltext: o.Message.getFieldWithDefault(t, 21, !1),
+                language: o.Message.getFieldWithDefault(t, 23, ""),
+                type: o.Message.getFieldWithDefault(t, 29, ""),
+                pageno: o.Message.getFieldWithDefault(t, 34, ""),
+                downloadcount: o.Message.getFieldWithDefault(t, 39, 0)
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.Thesis.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                type: o.Message.getFieldWithDefault(t, 2, ""),
+                titleList: o.Message.getField(t, 3),
+                creatorList: o.Message.getField(t, 4),
+                organizationnormList: o.Message.getField(t, 6),
+                originalorganizationList: o.Message.getField(t, 8),
+                classcodeList: o.Message.getField(t, 10),
+                keywordsList: o.Message.getField(t, 14),
+                foreignkeywordsList: o.Message.getField(t, 15),
+                machinedkeywordsList: o.Message.getField(t, 16),
+                abstractList: o.Message.getField(t, 18),
+                citedcount: o.Message.getFieldWithDefault(t, 19, 0),
+                servicemode: o.Message.getFieldWithDefault(t, 24, 0),
+                hasfulltext: o.Message.getFieldWithDefault(t, 25, !1),
+                publishyear: o.Message.getFieldWithDefault(t, 26, 0),
+                pageno: o.Message.getFieldWithDefault(t, 27, ""),
+                fulltextpath: o.Message.getFieldWithDefault(t, 28, ""),
+                doi: o.Message.getFieldWithDefault(t, 29, ""),
+                degree: o.Message.getFieldWithDefault(t, 30, ""),
+                language: o.Message.getFieldWithDefault(t, 31, ""),
+                major: o.Message.getFieldWithDefault(t, 34, ""),
+                thirdpartyurlList: o.Message.getField(t, 35),
+                metadataviewcount: o.Message.getFieldWithDefault(t, 37, 0),
+                thirdpartylinkclickcount: o.Message.getFieldWithDefault(t, 38, 0),
+                downloadcount: o.Message.getFieldWithDefault(t, 39, 0),
+                exportcount: o.Message.getFieldWithDefault(t, 41, 0),
+                delivercount: o.Message.getFieldWithDefault(t, 55, 0),
+                hascatolog: o.Message.getFieldWithDefault(t, 42, !1),
+                singlesourcedb: o.Message.getFieldWithDefault(t, 43, ""),
+                dbtype: o.Message.getFieldWithDefault(t, 58, "")
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.ThesisCatalog.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                title: o.Message.getFieldWithDefault(t, 2, ""),
+                contents: o.Message.getFieldWithDefault(t, 3, "")
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.Video.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                titleList: o.Message.getField(t, 2),
+                creator: o.Message.getFieldWithDefault(t, 4, ""),
+                organizationList: o.Message.getField(t, 5),
+                videosid: o.Message.getFieldWithDefault(t, 6, ""),
+                keywordsList: o.Message.getField(t, 7),
+                publishyear: o.Message.getFieldWithDefault(t, 8, 0),
+                duration: o.Message.getFieldWithDefault(t, 9, ""),
+                type: o.Message.getFieldWithDefault(t, 17, "")
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+         protos.com.wanfangdata.resource.LocalChronicle.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 2, ""),
+                title: o.Message.getFieldWithDefault(t, 3, ""),
+                editorList: o.Message.getField(t, 6),
+                publisherList: o.Message.getField(t, 7),
+                keywordsList: o.Message.getField(t, 21),
+                volume: o.Message.getFieldWithDefault(t, 22, ""),
+                dbid: o.Message.getFieldWithDefault(t, 28, ""),
+                pb_abstract: o.Message.getFieldWithDefault(t, 33, ""),
+                publishdate: o.Message.getFieldWithDefault(t, 35, ""),
+                downloadcount: o.Message.getFieldWithDefault(t, 39, 0),
+                type: o.Message.getFieldWithDefault(t, 41, ""),
+                singlesourcedb: o.Message.getFieldWithDefault(t, 42, "")
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.LocalChronicleItem.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                title: o.Message.getFieldWithDefault(t, 2, ""),
+                booktitle: o.Message.getFieldWithDefault(t, 5, ""),
+                editorList: o.Message.getField(t, 9),
+                publishdate: o.Message.getFieldWithDefault(t, 11, ""),
+                province: o.Message.getFieldWithDefault(t, 18, ""),
+                page: o.Message.getFieldWithDefault(t, 23, ""),
+                dbid: o.Message.getFieldWithDefault(t, 48, ""),
+                downloadcount: o.Message.getFieldWithDefault(t, 54, 0),
+                singlesourcedb: o.Message.getFieldWithDefault(t, 56, ""),
+                type: o.Message.getFieldWithDefault(t, 57, "")
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }
+
+        protos.com.wanfangdata.resource.Book.toObject = function(e, t) {
+            var r = {
+                id: o.Message.getFieldWithDefault(t, 1, ""),
+                title: o.Message.getFieldWithDefault(t, 2, ""),
+                creatorList: o.Message.getField(t, 3),
+                publisher: o.Message.getFieldWithDefault(t, 5, ""),
+                publisherlocation: o.Message.getFieldWithDefault(t, 7, ""),
+                isbnList: o.Message.getField(t, 8),
+                publishyear: o.Message.getFieldWithDefault(t, 34, 0),
+                pagenum: o.Message.getFieldWithDefault(t, 24, ""),
+                thirdpartyurlList: o.Message.getField(t, 25),
+                type: o.Message.getFieldWithDefault(t, 31, ""),
+                singlesourcedb: o.Message.getFieldWithDefault(t, 36, "")
+            };
+            return e && (r.$jspbMessageInstance = t),
+            r
+        }

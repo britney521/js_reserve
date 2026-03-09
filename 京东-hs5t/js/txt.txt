@@ -1,0 +1,327 @@
+const paramsH5sign: any = {
+    appid: 'search-pc-java',
+    functionId: functionId,
+    client: 'pc',
+    clientVersion: '1.0.0',
+    t: time,
+  }
+if (params) {
+    paramsH5sign['body'] = window.SHA256(JSON.stringify(params))
+  }
+
+  const { h5st } = await window.PSign.sign(paramsH5sign)
+
+  // 插桩
+
+_$Vj.prototype._$sdnmd = function(_$Vb) {
+    'use strict';
+    var k = _3klle;
+    var i = _2edle;
+    var _$VE, _$VP, _$Vh, _$Vm;
+    var o = [];
+    var c = 5080;
+    var w, q;
+
+    // 🔥🔥 [插桩位置1]：函数入口，打印输入参数
+    console.log("---------------- VM START ----------------");
+    console.log("VM Input (_$Vb):", _$Vb);
+
+    // 用于防止日志过多卡死浏览器的计数器
+    var _logCount = 0;
+
+    l36: for (; ; ) {
+
+        // 🔥🔥 [插桩位置2]：主循环，记录指令流 (Trace)
+        // 只有当需要详细分析每一步时开启，或者限制打印前 5000 步
+        if (_logCount < 5000) {
+            // 打印：当前指令位置(PC) | 当前操作码(Opcode) | 栈顶数据
+            console.log(
+                `Step[${_logCount}] PC:${c} Op:${i[c]} StackTop:`,
+                // 为了防止引用变动，建议只打印栈顶的几个元素，并深拷贝预览
+                o.slice(-3).map(x => (typeof x === 'function' ? 'func:' + x.name : x))
+            );
+            _logCount++;
+        }
+
+        switch (i[c++]) {
+            case 3:
+                o.push(_$Vb);
+                // 🔥 这里的 _$Vb 是核心参数入栈，重点关注
+                break;
+            case 4:
+                o.push(Date);
+                break;
+            case 10:
+                o.push(_$Vm);
+                break;
+            case 13:
+                o.push(_$ij);
+                break;
+            case 19:
+                o.pop();
+                break;
+            case 20:
+                o.push(this[_1tjle[377 + i[c++]]]);
+                break;
+
+            // 🔥🔥 [插桩位置3]：重点函数调用 (Opcode 34)
+            // 很多加密算法（MD5, SHA等）会通过 call 调用
+            case 34:
+                var func = o[o.length - 5];
+                var arg1 = o[o.length - 4];
+                var arg2 = o[o.length - 3];
+                var arg3 = o[o.length - 2];
+                var arg4 = o[o.length - 1];
+
+                console.log("⚡ Call(34) executing:", func, "Args:", arg1, arg2, arg3, arg4);
+
+                o[o.length - 5] = k.call(o[o.length - 5], o[o.length - 4], o[o.length - 3], o[o.length - 2], o[o.length - 1]);
+                o.length -= 4;
+
+                console.log("⚡ Call(34) result:", o[o.length - 1]); // 打印结果
+                break;
+
+            case 35:
+                o.push(_$VE);
+                break;
+            case 38:
+                _$VE = o[o.length - 1];
+                break;
+            case 41:
+                if (o.pop())
+                    ++c;
+                else
+                    c += i[c];
+                break;
+            case 42:
+                o.push(this);
+                break;
+            case 44:
+                o.push(_$W);
+                break;
+
+            // 🔥🔥 [插桩位置4]：重点函数调用 (Opcode 45)
+            case 45:
+                console.log("⚡ Call(45) Executing func:", o[o.length - 4], "Args:", o[o.length - 3], o[o.length - 2], o[o.length - 1]);
+                o[o.length - 4] = k.call(o[o.length - 4], o[o.length - 3], o[o.length - 2], o[o.length - 1]);
+                o.length -= 3;
+                break;
+
+            case 46:
+                _$Vm = o[o.length - 1];
+                break;
+
+            // 🔥🔥 [插桩位置5]：重点函数调用 (Opcode 50)
+            // 这里区分了 call 调用和直接 () 调用，非常关键
+            case 50:
+                if (o[o.length - 2] != null) {
+                    console.log("⚡ Call(50-A) func:", o[o.length - 3], "Arg:", o[o.length - 1]);
+                    o[o.length - 3] = k.call(o[o.length - 3], o[o.length - 2], o[o.length - 1]);
+                    o.length -= 2;
+                } else {
+                    w = o[o.length - 3];
+                    console.log("⚡ Call(50-B) Direct func:", w, "Arg:", o[o.length - 1]);
+                    o[o.length - 3] = w(o[o.length - 1]);
+                    o.length -= 2;
+                }
+                break;
+
+            case 51:
+                o.push(_$Vh);
+                break;
+            case 55:
+                var result = o.pop();
+                // 🔥🔥 [插桩位置6]：函数返回，拿到最终加密结果
+                console.log("---------------- VM END (55) ----------------");
+                console.log("Final Result:", result);
+                return result;
+                break;
+            case 56:
+                o[o.length - 1] = o[o.length - 1][_1tjle[377 + i[c++]]];
+                break;
+            case 57:
+                _$VP = o[o.length - 1];
+                break;
+            case 60:
+                _$Vh = o[o.length - 1];
+                break;
+            case 66:
+                o.push(_1tjle[377 + i[c++]]);
+                break;
+            case 70:
+                console.log("---------------- VM END (70) ----------------");
+                return;
+                break;
+            case 72:
+                o.push(_$VP);
+                break;
+            case 84:
+                w = o.pop();
+                o[o.length - 1] = o[o.length - 1] == w;
+                break;
+
+            // 🔥🔥 [插桩位置7]：重点函数调用 (Opcode 88)
+            case 88:
+                if (o[o.length - 1] != null) {
+                    console.log("⚡ Call(88-A) func:", o[o.length - 2], "Arg:", o[o.length - 1]);
+                    o[o.length - 2] = k.call(o[o.length - 2], o[o.length - 1]);
+                } else {
+                    w = o[o.length - 2];
+                    console.log("⚡ Call(88-B) Direct func:", w);
+                    o[o.length - 2] = w();
+                }
+                o.length--;
+                break;
+
+            case 91:
+                o.push(null);
+                break;
+            case 95:
+                o.push({});
+                break;
+            case 97:
+                o.push(_$iw);
+                break;
+            case 99:
+                o.push(o[o.length - 1]);
+                o[o.length - 2] = o[o.length - 2][_1tjle[377 + i[c++]]];
+                break;
+            }
+        }
+    }
+
+  _$Vj.prototype._$clt = function() {
+    'use strict';
+    var a = _3klle; // 确保上下文能访问到这个变量
+    var o = _2edle; // 确保上下文能访问到这个变量
+    var SI, _$Vb, _$VE;
+    var d = [];
+    var h = 4996; // 初始指针
+    var b, r;
+
+    console.log("🔥🔥 [VM Start] _$clt signature gen started");
+
+    l35: for (; ; ) {
+        // [可选] 全局指令流监控 (如果日志太卡请注释掉)
+        // if(d.length > 0) console.log(`PC:${h} Op:${o[h]} Top:`, d[d.length-1]);
+
+        switch (o[h++]) {
+        case 1:
+            // 4参数函数调用
+            console.log("⚡ Call(1) Func:", d[d.length - 5], "Args:", d[d.length - 4], d[d.length - 3], d[d.length - 2], d[d.length - 1]);
+            d[d.length - 5] = a.call(d[d.length - 5], d[d.length - 4], d[d.length - 3], d[d.length - 2], d[d.length - 1]);
+            d.length -= 4;
+            break;
+        case 2:
+            d.push(_$VE);
+            break;
+        case 5:
+            d.push(d[d.length - 1]);
+            d[d.length - 2] = d[d.length - 2][_1tjle[367 + o[h++]]];
+            break;
+        case 8:
+            d.pop();
+            break;
+        case 11:
+            d.push(_$Vb);
+            break;
+        case 14:
+            d.push(_$al);
+            break;
+        case 16:
+            d.push(_$ij);
+            break;
+        case 23:
+            d.push(null);
+            break;
+        case 24:
+            b = d.pop();
+            d[d.length - 1] = d[d.length - 1] === b;
+            break;
+        case 26:
+            SI = d[d.length - 1];
+            break;
+        case 32:
+            h += o[h];
+            break;
+        case 36:
+            // ➕ 运算 (可能是字符串拼接，用于生成最终签名串)
+            b = d.pop();
+            var valA = d[d.length - 1];
+            d[d.length - 1] += b;
+            console.log(`➕ Add(36): "${valA}" + "${b}" = "${d[d.length - 1]}"`);
+            break;
+        case 42:
+            d.push(_$iK);
+            break;
+        case 43:
+            d.push(_$iG);
+            break;
+        case 48:
+            d.push(SI);
+            break;
+        case 51:
+            _$VE = d[d.length - 1];
+            break;
+        case 58:
+            _$Vb = d[d.length - 1];
+            break;
+        case 60:
+            d.push(this[_1tjle[367 + o[h++]]]);
+            break;
+        case 61:
+            return;
+            break;
+        case 64:
+            d.push(o[h++]);
+            break;
+        case 65:
+            d[d.length - 2][_1tjle[367 + o[h++]]] = d[d.length - 1];
+            d[d.length - 2] = d[d.length - 1];
+            d.length--;
+            break;
+        case 69:
+            // 🏁 返回最终结果
+            var result = d.pop();
+            console.log("🏁 [VM Return] Result:", result);
+            return result;
+            break;
+        case 70:
+            d.push(_$Vq);
+            break;
+
+        // 🔥🔥 核心函数调用监控
+        case 75:
+            if (d[d.length - 2] != null) {
+                console.log("⚡ Call(75-Call) Func:", d[d.length - 3], "Arg1:", d[d.length - 2], "Arg2:", d[d.length - 1]);
+                d[d.length - 3] = a.call(d[d.length - 3], d[d.length - 2], d[d.length - 1]);
+                d.length -= 2;
+            } else {
+                b = d[d.length - 3];
+                console.log("⚡ Call(75-Direct) Func:", b, "Arg:", d[d.length - 1]);
+                d[d.length - 3] = b(d[d.length - 1]);
+                d.length -= 2;
+            }
+            break;
+
+        case 77:
+            if (d.pop())
+                ++h;
+            else
+                h += o[h];
+            break;
+        case 86:
+            d[d.length - 1] = d[d.length - 1][_1tjle[367 + o[h++]]];
+            break;
+        case 88:
+            d.push(_1tjle[367 + o[h++]]);
+            break;
+        case 89:
+            d.push(VM);
+            break;
+        case 97:
+            d.push(_$W);
+            break;
+        }
+    }
+}

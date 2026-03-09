@@ -1,0 +1,37 @@
+https://ec.chng.com.cn/channel/home/#/
+瑞数
+    无限debugger
+    请求次数    2次
+    特点       第一次请求状态码是412
+    cookie键
+        S6J51OuUjLieO
+        S6J51OuUjLieP
+        前面会保持一致 最后一个不一样
+
+    版本
+        通过值的第一个数字区分是几代（官方无这种区分,爬虫自己定义的）
+
+
+首先知道是cookie加密 参数为 S6J51OuUjLieO 和 S6J51OuUjLieP
+
+区分 服务器返回 还是js加密的
+S6J51OuUjLieO   请求页面返回的数据
+
+S6J51OuUjLieP   js生成
+
+vm文件加载
+    eval 定时器 虚拟文件
+
+瑞数加载过程
+    第一次请求
+        返回html页面 外链js 、 ts代码
+        执行外链js代码    会调用eval 生成vm文件  在vm里面生成的cookie
+            那么 就可以扣外链 不管他vm怎么生成 执行完外链 直接document.cookie就行
+        vm文件代码 由ts代码生成
+    补环境
+        补瑞数环境   html页面拿到ts（写活） 外链js代码（等于解释器方法的作用 可以写死）
+        最重要的是一定要知道 自己补的环境是不是对的 一定要通过联调查看 在真实的网页中查看
+
+
+
+瑞数 会检测文件

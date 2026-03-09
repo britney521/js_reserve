@@ -1,0 +1,28 @@
+{
+    "setLeft": 156,
+    "passtime": 1176,
+    "userresponse": 190.30876199060066,
+    "device_id": "",
+    "lot_number": "ce5992a162cf4a6d950e38f5ad94d928",
+    "pow_msg": "1|0|md5|2025-12-28T21:21:55.942780+08:00|89a09da8588eb49f112da8cd1d8a5a88|ce5992a162cf4a6d950e38f5ad94d928||cd949b63e45d4a9c",
+    "pow_sign": "a0001df3d7f00aeedc7b98c4ff8c0d1a",
+    "geetest": "captcha",
+    "lang": "zh",
+    "ep": "123",
+    "biht": "1426265548",
+    "W4Ec": "7RXi",
+    "8f5a": {
+        "162cf4a6": {
+            "cf4ae38f": "94d9"
+        }
+    },
+    "em": {
+        "ph": 0,
+        "cp": 0,
+        "ek": "11",
+        "wd": 1,
+        "nt": 0,
+        "si": 0,
+        "sc": 0
+    }
+}

@@ -1,0 +1,36 @@
+let demo = new Hlclient("ws://127.0.0.1:12080/ws?group=weibo");
+
+demo.regAction("jd", function (resolve, param) {
+    console.log('接收到参数:', param);
+
+    try {
+        // 2. 初始化 paramsH5sign，防止 ReferenceError
+        // 如果你有预设的参数模板，请在这里赋值，否则初始化为空对象
+        let paramsH5sign = {};
+
+        // 3. 计算逻辑
+        paramsH5sign['body'] = window.SHA256(JSON.stringify(param));
+
+        // 确保 window.PSign._$sdnmd 存在
+        const signResult = window.PSign._$sdnmd(paramsH5sign);
+        const h5st = signResult.h5st;
+
+        console.log('生成的 h5st:', h5st);
+
+        // 4. 返回结果
+        resolve(h5st);
+
+    } catch (e) {
+        console.error("JS执行报错:", e);
+        // 即便报错也 resolve 传回错误信息，避免服务端死等超时
+        resolve({ "error": e.message });
+    }
+});
+
+
+let demo = new window.Hlclient("ws://127.0.0.1:12080/ws?group=weibo");
+
+demo.regAction("jd", function (resolve, param) {
+    console.log("收到请求，参数为:", param);
+    resolve({ "status": "link_ok", "msg": "链路正常" });
+});

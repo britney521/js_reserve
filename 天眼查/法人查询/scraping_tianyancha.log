@@ -1,0 +1,1278 @@
+2025-12-04 13:26:09.119 | INFO     | __main__:main:197 - 
+--- 开始处理 1/3228: 嘉兴联翔企业管理咨询合伙企业(有限合伙) ---
+2025-12-04 13:26:21.967 | INFO     | __main__:main:197 - --- 开始处理 1/3228: 嘉兴联翔企业管理咨询合伙企业(有限合伙) ---
+2025-12-04 13:26:24.418 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：卜晓华
+2025-12-04 13:26:24.419 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:26:24.420 | INFO     | __main__:main:197 - --- 开始处理 2/3228: 中信建投投资有限公司 ---
+2025-12-04 13:26:27.603 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：李旭东
+2025-12-04 13:26:27.605 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:26:27.605 | INFO     | __main__:main:197 - --- 开始处理 3/3228: 国信资本有限责任公司 ---
+2025-12-04 13:26:30.151 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：陈华
+2025-12-04 13:26:30.152 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:26:30.152 | INFO     | __main__:main:197 - --- 开始处理 4/3228: 湖南高创环宇创业投资合伙企业(有限合伙) ---
+2025-12-04 13:26:32.613 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：湖南高新纵横资产经营有限公司 (长度: 14)
+2025-12-04 13:26:35.770 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：章涛
+2025-12-04 13:26:35.772 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:26:35.772 | INFO     | __main__:main:197 - --- 开始处理 5/3228: 新余瑞田管理咨询中心(有限合伙) ---
+2025-12-04 13:26:37.986 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：高登华
+2025-12-04 13:26:37.987 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:26:37.988 | INFO     | __main__:main:197 - --- 开始处理 6/3228: 东莞市微笑管理咨询合伙企业(有限合伙) ---
+2025-12-04 13:26:40.942 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：谢云
+2025-12-04 13:26:40.944 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:26:40.944 | INFO     | __main__:main:197 - --- 开始处理 7/3228: 重庆同为企业管理中心(有限合伙) ---
+2025-12-04 13:26:43.460 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：胡云平
+2025-12-04 13:26:43.462 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:26:43.462 | INFO     | __main__:main:197 - --- 开始处理 8/3228: 宁波梅山保税港区释天创业投资合伙企业(有限合伙) ---
+2025-12-04 13:26:47.243 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：陈琳
+2025-12-04 13:26:47.244 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:26:47.244 | INFO     | __main__:main:197 - --- 开始处理 9/3228: 广州大昊企业管理咨询合伙企业(有限合伙) ---
+2025-12-04 13:26:49.039 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：陈琳
+2025-12-04 13:26:49.040 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:26:49.040 | INFO     | __main__:main:197 - --- 开始处理 10/3228: 广州高丛企业管理咨询合伙企业(有限合伙) ---
+2025-12-04 13:26:52.294 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：姚志强
+2025-12-04 13:26:52.296 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:26:52.297 | INFO     | __main__:main:197 - --- 开始处理 11/3228: 广州和德企业管理咨询合伙企业(有限合伙) ---
+2025-12-04 13:26:56.301 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：易敏
+2025-12-04 13:26:56.302 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:26:56.302 | INFO     | __main__:main:197 - --- 开始处理 12/3228: 广州吕申企业管理咨询合伙企业(有限合伙) ---
+2025-12-04 13:26:59.450 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：姚志强
+2025-12-04 13:26:59.451 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:26:59.452 | INFO     | __main__:main:197 - --- 开始处理 13/3228: 珠海瑞昇投资合伙企业(有限合伙) ---
+2025-12-04 13:27:02.321 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：宏迅创建有限公司 (长度: 8)
+2025-12-04 13:27:04.286 | INFO     | __main__:query_legal_person_with_path:143 - [>>>>>>] 找到法人（仍是公司）：宏迅创建有限公司 (长度: 8)
+2025-12-04 13:27:06.365 | INFO     | __main__:query_legal_person_with_path:143 - [>>>>>>>>>] 找到法人（仍是公司）：宏迅创建有限公司 (长度: 8)
+2025-12-04 13:27:06.365 | WARNING  | __main__:query_legal_person_with_path:104 - 超过最大路径深度 3，停止查询。
+2025-12-04 13:27:06.367 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:06.367 | INFO     | __main__:main:197 - --- 开始处理 14/3228: 深圳惠和投资有限公司 ---
+2025-12-04 13:27:08.173 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：李贺梓
+2025-12-04 13:27:08.174 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:08.174 | INFO     | __main__:main:197 - --- 开始处理 15/3228: 中国中金财富证券有限公司 ---
+2025-12-04 13:27:10.991 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：王建力
+2025-12-04 13:27:10.992 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:10.992 | INFO     | __main__:main:197 - --- 开始处理 16/3228: 上海莘导企业管理有限公司 ---
+2025-12-04 13:27:13.426 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：欧新华
+2025-12-04 13:27:13.427 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:13.427 | INFO     | __main__:main:197 - --- 开始处理 17/3228: 上海萃慧企业管理服务中心(有限合伙) ---
+2025-12-04 13:27:15.796 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：欧新华
+2025-12-04 13:27:15.797 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:15.797 | INFO     | __main__:main:197 - --- 开始处理 18/3228: 中信建投投资有限公司 ---
+2025-12-04 13:27:19.023 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：李旭东
+2025-12-04 13:27:19.024 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:19.025 | INFO     | __main__:main:197 - --- 开始处理 19/3228: 深圳南山架桥卓越智能装备投资合伙企业(有限合伙) ---
+2025-12-04 13:27:23.120 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：深圳市架桥富凯私募创业投资基金管理有限公司 (长度: 21)
+2025-12-04 13:27:26.566 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：徐波
+2025-12-04 13:27:26.567 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:26.568 | INFO     | __main__:main:197 - --- 开始处理 20/3228: 深圳市前海鹏晨创智投资管理企业(有限合伙) ---
+2025-12-04 13:27:28.803 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：深圳市前海鹏晨德润投资合伙企业（有限合伙） (长度: 21)
+2025-12-04 13:27:31.713 | INFO     | __main__:query_legal_person_with_path:143 - [>>>>>>] 找到法人（仍是公司）：深圳市前海鹏晨投资管理有限公司 (长度: 15)
+2025-12-04 13:27:34.226 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>>>>] 成功找到人名法人：董玮
+2025-12-04 13:27:34.228 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:34.228 | INFO     | __main__:main:197 - --- 开始处理 21/3228: 兴证证券资管-兴业银行-兴证资管鑫众汇成真空1号员工战略配售集合资产管理计划 ---
+2025-12-04 13:27:39.077 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：陈怀宇
+2025-12-04 13:27:39.078 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:39.079 | INFO     | __main__:main:197 - --- 开始处理 22/3228: 西藏佳得加企业管理有限公司 ---
+2025-12-04 13:27:42.744 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：肖俊承
+2025-12-04 13:27:42.745 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:42.745 | INFO     | __main__:main:197 - --- 开始处理 23/3228: 深圳市宁濛瑞投资有限公司 ---
+2025-12-04 13:27:45.921 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：罗腾子
+2025-12-04 13:27:45.922 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:45.922 | INFO     | __main__:main:197 - --- 开始处理 24/3228: 深圳市前海鹏晨源拓投资企业(有限合伙) ---
+2025-12-04 13:27:48.313 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：深圳市前海鹏晨德润投资合伙企业（有限合伙） (长度: 21)
+2025-12-04 13:27:50.134 | INFO     | __main__:query_legal_person_with_path:143 - [>>>>>>] 找到法人（仍是公司）：深圳市前海鹏晨投资管理有限公司 (长度: 15)
+2025-12-04 13:27:53.629 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>>>>] 成功找到人名法人：董玮
+2025-12-04 13:27:53.631 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:53.631 | INFO     | __main__:main:197 - --- 开始处理 25/3228: 上海东方证券创新投资有限公司 ---
+2025-12-04 13:27:57.741 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：金兆强
+2025-12-04 13:27:57.742 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:57.742 | INFO     | __main__:main:197 - --- 开始处理 26/3228: 深圳和而泰智能控制股份有限公司 ---
+2025-12-04 13:27:59.761 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：刘建伟
+2025-12-04 13:27:59.762 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:27:59.762 | INFO     | __main__:main:197 - --- 开始处理 27/3228: 中国兵器装备集团有限公司 ---
+2025-12-04 13:28:01.964 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：许宪平
+2025-12-04 13:28:01.965 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:01.965 | INFO     | __main__:main:197 - --- 开始处理 28/3228: 南方工业资产管理有限责任公司 ---
+2025-12-04 13:28:04.339 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：肖勇
+2025-12-04 13:28:04.340 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:04.340 | INFO     | __main__:main:197 - --- 开始处理 29/3228: 中钢科技发展有限公司 ---
+2025-12-04 13:28:06.295 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：姜宁
+2025-12-04 13:28:06.296 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:06.296 | INFO     | __main__:main:197 - --- 开始处理 30/3228: 中国冶金科技成果转化有限公司 ---
+2025-12-04 13:28:09.742 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：姜宁
+2025-12-04 13:28:09.743 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:09.743 | INFO     | __main__:main:197 - --- 开始处理 31/3228: 洛阳洛耐创拾投资管理中心(有限合伙) ---
+2025-12-04 13:28:12.011 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：王文武
+2025-12-04 13:28:12.012 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:12.012 | INFO     | __main__:main:197 - --- 开始处理 32/3228: 洛阳洛耐创捌投资管理中心(有限合伙) ---
+2025-12-04 13:28:14.668 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：王战民
+2025-12-04 13:28:14.669 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:14.669 | INFO     | __main__:main:197 - --- 开始处理 33/3228: 洛阳洛耐创玖投资管理中心(有限合伙) ---
+2025-12-04 13:28:16.627 | ERROR    | __main__:query_legal_person_with_path:125 - 反爬机制触发！查询 洛阳洛耐创玖投资管理中心(有限合伙) 失败。
+2025-12-04 13:28:16.628 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:16.628 | INFO     | __main__:main:197 - --- 开始处理 34/3228: 洛阳洛耐创贰投资管理中心(有限合伙) ---
+2025-12-04 13:28:18.868 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：耿可明
+2025-12-04 13:28:18.870 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:18.870 | INFO     | __main__:main:197 - --- 开始处理 35/3228: 洛阳洛耐创肆投资管理中心(有限合伙) ---
+2025-12-04 13:28:22.317 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：张利新
+2025-12-04 13:28:22.318 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:22.319 | INFO     | __main__:main:197 - --- 开始处理 36/3228: 洛阳洛耐创伍投资管理中心(有限合伙) ---
+2025-12-04 13:28:25.239 | ERROR    | __main__:query_legal_person_with_path:125 - 反爬机制触发！查询 洛阳洛耐创伍投资管理中心(有限合伙) 失败。
+2025-12-04 13:28:25.240 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:25.240 | INFO     | __main__:main:197 - --- 开始处理 37/3228: 洛阳洛耐创叁投资管理中心(有限合伙) ---
+2025-12-04 13:28:28.459 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：李占江
+2025-12-04 13:28:28.460 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:28.461 | INFO     | __main__:main:197 - --- 开始处理 38/3228: 洛阳洛耐创壹投资管理中心(有限合伙) ---
+2025-12-04 13:28:30.668 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：薄钧
+2025-12-04 13:28:30.669 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:30.669 | INFO     | __main__:main:197 - --- 开始处理 39/3228: 洛阳洛耐创拾壹投资管理中心(有限合伙) ---
+2025-12-04 13:28:33.087 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：李丹
+2025-12-04 13:28:33.088 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:33.088 | INFO     | __main__:main:197 - --- 开始处理 40/3228: 洛阳洛耐创陆投资管理中心(有限合伙) ---
+2025-12-04 13:28:35.988 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：吴波
+2025-12-04 13:28:35.990 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:35.990 | INFO     | __main__:main:197 - --- 开始处理 41/3228: 洛阳洛耐创柒投资管理中心(有限合伙) ---
+2025-12-04 13:28:39.177 | ERROR    | __main__:query_legal_person_with_path:125 - 反爬机制触发！查询 洛阳洛耐创柒投资管理中心(有限合伙) 失败。
+2025-12-04 13:28:39.178 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:39.178 | INFO     | __main__:main:197 - --- 开始处理 42/3228: 民生证券投资有限公司 ---
+2025-12-04 13:28:41.909 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：任凯锋
+2025-12-04 13:28:41.910 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:41.910 | INFO     | __main__:main:197 - --- 开始处理 43/3228: 巢湖旗山中智创业投资管理有限公司 ---
+2025-12-04 13:28:45.052 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：肖国庆
+2025-12-04 13:28:45.054 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:45.054 | INFO     | __main__:main:197 - --- 开始处理 44/3228: 中国中金财富证券有限公司 ---
+2025-12-04 13:28:47.646 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：王建力
+2025-12-04 13:28:47.647 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:47.647 | INFO     | __main__:main:197 - --- 开始处理 45/3228: 宁波镇海金塑股权投资管理合伙企业(有限合伙) ---
+2025-12-04 13:28:50.122 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：王熊
+2025-12-04 13:28:50.123 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:50.124 | INFO     | __main__:main:197 - --- 开始处理 46/3228: 宁波镇海金模股权投资管理合伙企业(有限合伙) ---
+2025-12-04 13:28:53.466 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：王熊
+2025-12-04 13:28:53.467 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:53.468 | INFO     | __main__:main:197 - --- 开始处理 47/3228: 南京腾亚实业集团有限公司 ---
+2025-12-04 13:28:55.839 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：孙德斌
+2025-12-04 13:28:55.840 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:55.840 | INFO     | __main__:main:197 - --- 开始处理 48/3228: 南京运航创业投资中心(有限合伙) ---
+2025-12-04 13:28:59.349 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：乐清勇
+2025-12-04 13:28:59.350 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:28:59.350 | INFO     | __main__:main:197 - --- 开始处理 49/3228: 南京倚峰企业管理有限公司 ---
+2025-12-04 13:29:01.042 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：马姝芳
+2025-12-04 13:29:01.043 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:01.043 | INFO     | __main__:main:197 - --- 开始处理 50/3228: 清控创业投资有限公司 ---
+2025-12-04 13:29:03.664 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：郑成武
+2025-12-04 13:29:03.665 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:03.665 | INFO     | __main__:main:197 - --- 开始处理 51/3228: 天通高新集团有限公司 ---
+2025-12-04 13:29:06.315 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：杜海利
+2025-12-04 13:29:06.316 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:06.317 | INFO     | __main__:main:197 - --- 开始处理 52/3228: 上海沁德通企业管理服务中心(有限合伙) ---
+2025-12-04 13:29:08.682 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：赵耀
+2025-12-04 13:29:08.683 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:08.683 | INFO     | __main__:main:197 - --- 开始处理 53/3228: 上海崇泽慧宇企业管理服务中心(有限合伙) ---
+2025-12-04 13:29:11.778 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：刘学良
+2025-12-04 13:29:11.779 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:11.780 | INFO     | __main__:main:197 - --- 开始处理 54/3228: 成都中科唯实仪器有限责任公司 ---
+2025-12-04 13:29:14.048 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：张海军
+2025-12-04 13:29:14.049 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:14.049 | INFO     | __main__:main:197 - --- 开始处理 55/3228: 中国科学院沈阳科学仪器股份有限公司 ---
+2025-12-04 13:29:16.803 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：郭东民
+2025-12-04 13:29:16.804 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:16.805 | INFO     | __main__:main:197 - --- 开始处理 56/3228: 桂林旅游投资集团有限公司 ---
+2025-12-04 13:29:20.628 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：宁志
+2025-12-04 13:29:20.629 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:20.629 | INFO     | __main__:main:197 - --- 开始处理 57/3228: 中国软件与技术服务股份有限公司 ---
+2025-12-04 13:29:24.312 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：谌志华
+2025-12-04 13:29:24.313 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:24.314 | INFO     | __main__:main:197 - --- 开始处理 58/3228: 中电(天津)企业管理中心(有限合伙) ---
+2025-12-04 13:29:26.923 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：中电智慧基金管理有限公司 (长度: 12)
+2025-12-04 13:29:28.667 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：刘振龙
+2025-12-04 13:29:28.668 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:28.668 | INFO     | __main__:main:197 - --- 开始处理 59/3228: 海南鑫润一期私募基金合伙企业(有限合伙) ---
+2025-12-04 13:29:31.810 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：中电鑫泽（北京）投资管理有限责任公司 (长度: 18)
+2025-12-04 13:29:34.175 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：石明磊
+2025-12-04 13:29:34.177 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:34.177 | INFO     | __main__:main:197 - --- 开始处理 60/3228: 宁波梅山保税港区丰年君和股权投资合伙企业(有限合伙) ---
+2025-12-04 13:29:36.328 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：宁波丰年通达投资管理有限公司 (长度: 14)
+2025-12-04 13:29:39.025 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：赵丰
+2025-12-04 13:29:39.027 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:39.027 | INFO     | __main__:main:197 - --- 开始处理 61/3228: 中国互联网投资基金(有限合伙) ---
+2025-12-04 13:29:42.203 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：中国互联网投资基金管理有限公司 (长度: 15)
+2025-12-04 13:29:44.743 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：吴海
+2025-12-04 13:29:44.744 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:44.744 | INFO     | __main__:main:197 - --- 开始处理 62/3228: 芜湖信湦投资管理合伙企业(有限合伙) ---
+2025-12-04 13:29:47.519 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：信风投资管理有限公司 (长度: 10)
+2025-12-04 13:29:49.279 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：展江
+2025-12-04 13:29:49.281 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:49.281 | INFO     | __main__:main:197 - --- 开始处理 63/3228: 武汉合旭控股有限公司 ---
+2025-12-04 13:29:52.316 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：朱长明
+2025-12-04 13:29:52.317 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:52.317 | INFO     | __main__:main:197 - --- 开始处理 64/3228: 启航聚力创新(湖北)股权投资管理合伙企业(有限合伙) ---
+2025-12-04 13:29:54.691 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：湖北育新启航私募基金管理有限公司 (长度: 16)
+2025-12-04 13:29:57.116 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：杨惊
+2025-12-04 13:29:57.118 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:29:57.118 | INFO     | __main__:main:197 - --- 开始处理 65/3228: 武汉华工明德先进制造创业投资合伙企业(有限合伙) ---
+2025-12-04 13:30:01.038 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：武汉华工明德投资管理有限公司 (长度: 14)
+2025-12-04 13:30:04.731 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：王中
+2025-12-04 13:30:04.732 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:04.732 | INFO     | __main__:main:197 - --- 开始处理 66/3228: 江苏尚昆生物设备有限公司 ---
+2025-12-04 13:30:06.418 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：严荣飞
+2025-12-04 13:30:06.419 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:06.419 | INFO     | __main__:main:197 - --- 开始处理 67/3228: 扬中市通泰投资管理合伙企业(有限合伙) ---
+2025-12-04 13:30:08.304 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：严荣飞
+2025-12-04 13:30:08.306 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:08.306 | INFO     | __main__:main:197 - --- 开始处理 68/3228: 苏州聚信源企业管理有限公司 ---
+2025-12-04 13:30:10.982 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：肖锋
+2025-12-04 13:30:10.983 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:10.983 | INFO     | __main__:main:197 - --- 开始处理 69/3228: 苏州宇智伴企业管理合伙企业(有限合伙) ---
+2025-12-04 13:30:13.659 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：肖锋
+2025-12-04 13:30:13.660 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:13.660 | INFO     | __main__:main:197 - --- 开始处理 70/3228: 北京和美嘉和投资管理中心(有限合伙) ---
+2025-12-04 13:30:16.382 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：夏军
+2025-12-04 13:30:16.383 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:16.383 | INFO     | __main__:main:197 - --- 开始处理 71/3228: 中信建投资本管理有限公司-浙江浙创好雨新兴产业股权投资合伙企业(有限合伙) ---
+2025-12-04 13:30:19.946 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：中信建投资本管理有限公司 (长度: 12)
+2025-12-04 13:30:22.126 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：李铁生
+2025-12-04 13:30:22.127 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:22.128 | INFO     | __main__:main:197 - --- 开始处理 72/3228: 深圳市华拓私募股权投资基金管理有限公司-深圳市华拓至远叁号投资企业(有限合伙) ---
+2025-12-04 13:30:25.530 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：蔡丹群
+2025-12-04 13:30:25.531 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:25.532 | INFO     | __main__:main:197 - --- 开始处理 73/3228: 浙江梦天控股有限公司 ---
+2025-12-04 13:30:29.178 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：余静渊
+2025-12-04 13:30:29.179 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:29.179 | INFO     | __main__:main:197 - --- 开始处理 74/3228: 嘉兴梦家投资管理合伙企业(有限合伙) ---
+2025-12-04 13:30:32.805 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：余静渊
+2025-12-04 13:30:32.806 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:32.807 | INFO     | __main__:main:197 - --- 开始处理 75/3228: 嘉兴梦悦投资管理合伙企业(有限合伙) ---
+2025-12-04 13:30:35.628 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：余静渊
+2025-12-04 13:30:35.629 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:35.630 | INFO     | __main__:main:197 - --- 开始处理 76/3228: 北京金隅集团股份有限公司 ---
+2025-12-04 13:30:39.299 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：姜英武
+2025-12-04 13:30:39.300 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:39.300 | INFO     | __main__:main:197 - --- 开始处理 77/3228: 迪阿投资(珠海)有限公司 ---
+2025-12-04 13:30:42.234 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：张国涛
+2025-12-04 13:30:42.235 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:42.235 | INFO     | __main__:main:197 - --- 开始处理 78/3228: 共青城温迪贰号投资管理合伙企业(有限合伙) ---
+2025-12-04 13:30:44.361 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：深圳前海温迪管理咨询有限公司 (长度: 14)
+2025-12-04 13:30:46.347 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：张国涛
+2025-12-04 13:30:46.348 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:46.348 | INFO     | __main__:main:197 - --- 开始处理 79/3228: 共青城温迪壹号投资管理合伙企业(有限合伙) ---
+2025-12-04 13:30:50.059 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：深圳前海温迪管理咨询有限公司 (长度: 14)
+2025-12-04 13:30:53.083 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：张国涛
+2025-12-04 13:30:53.084 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:53.085 | INFO     | __main__:main:197 - --- 开始处理 80/3228: 共青城温迪叁号投资管理合伙企业(有限合伙) ---
+2025-12-04 13:30:55.270 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：深圳前海温迪管理咨询有限公司 (长度: 14)
+2025-12-04 13:30:57.816 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：张国涛
+2025-12-04 13:30:57.818 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:30:57.818 | INFO     | __main__:main:197 - --- 开始处理 81/3228: 江苏国泰国际集团股份有限公司 ---
+2025-12-04 13:31:01.185 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：张子燕
+2025-12-04 13:31:01.187 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:01.187 | INFO     | __main__:main:197 - --- 开始处理 82/3228: 张家港市国泰投资有限公司 ---
+2025-12-04 13:31:04.563 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：张子燕
+2025-12-04 13:31:04.564 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:04.565 | INFO     | __main__:main:197 - --- 开始处理 83/3228: 上海全裕智合管理咨询事务所(有限合伙) ---
+2025-12-04 13:31:08.004 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：王继红
+2025-12-04 13:31:08.006 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:08.006 | INFO     | __main__:main:197 - --- 开始处理 84/3228: 如皋万达企业管理合伙企业(有限合伙) ---
+2025-12-04 13:31:10.587 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：徐群生
+2025-12-04 13:31:10.588 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:10.588 | INFO     | __main__:main:197 - --- 开始处理 85/3228: 如皋万力科创发展合伙企业(有限合伙) ---
+2025-12-04 13:31:13.464 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：徐飞
+2025-12-04 13:31:13.465 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:13.465 | INFO     | __main__:main:197 - --- 开始处理 86/3228: 海通创新证券投资有限公司 ---
+2025-12-04 13:31:17.088 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：李保国
+2025-12-04 13:31:17.089 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:17.089 | INFO     | __main__:main:197 - --- 开始处理 87/3228: 杭州跃祥企业管理合伙企业(有限合伙) ---
+2025-12-04 13:31:20.470 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：邵春能
+2025-12-04 13:31:20.471 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:20.471 | INFO     | __main__:main:197 - --- 开始处理 88/3228: 杭州百君投资管理合伙企业(有限合伙) ---
+2025-12-04 13:31:22.280 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：邵春能
+2025-12-04 13:31:22.281 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:22.281 | INFO     | __main__:main:197 - --- 开始处理 89/3228: 杭州福钰投资管理合伙企业(有限合伙) ---
+2025-12-04 13:31:25.443 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：邵春能
+2025-12-04 13:31:25.444 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:25.444 | INFO     | __main__:main:197 - --- 开始处理 90/3228: Strait Co,Ltd. ---
+2025-12-04 13:31:28.807 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：杨清金
+2025-12-04 13:31:28.808 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:28.808 | INFO     | __main__:main:197 - --- 开始处理 91/3228: 北京厚生投资管理中心(有限合伙)-珠海厚中股权投资中心(有限合伙) ---
+2025-12-04 13:31:31.355 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：杨清金
+2025-12-04 13:31:31.356 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:31.356 | INFO     | __main__:main:197 - --- 开始处理 92/3228: 国泰君安证裕投资有限公司 ---
+2025-12-04 13:31:33.202 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：徐岚
+2025-12-04 13:31:33.203 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:33.203 | INFO     | __main__:main:197 - --- 开始处理 93/3228: 东莞慕泰实业投资合伙企业(有限合伙) ---
+2025-12-04 13:31:36.582 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：王炳坤
+2025-12-04 13:31:36.583 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:36.583 | INFO     | __main__:main:197 - --- 开始处理 94/3228: 武汉励元齐心投资管理合伙企业(有限合伙) ---
+2025-12-04 13:31:38.725 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：朱敦禹
+2025-12-04 13:31:38.726 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:38.726 | INFO     | __main__:main:197 - --- 开始处理 95/3228: 武汉鼎立恒丰企业管理合伙企业(有限合伙) ---
+2025-12-04 13:31:40.608 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：朱敦尧
+2025-12-04 13:31:40.609 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:40.610 | INFO     | __main__:main:197 - --- 开始处理 96/3228: 深圳市凯鑫投资有限公司 ---
+2025-12-04 13:31:43.294 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：韩留才
+2025-12-04 13:31:43.295 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:43.296 | INFO     | __main__:main:197 - --- 开始处理 97/3228: 周口市定邦管理咨询合伙企业(有限合伙) ---
+2025-12-04 13:31:45.353 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：柳中义
+2025-12-04 13:31:45.354 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:45.355 | INFO     | __main__:main:197 - --- 开始处理 98/3228: 南京华如志远创业投资合伙企业(有限合伙) ---
+2025-12-04 13:31:48.105 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：李杰
+2025-12-04 13:31:48.107 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:48.107 | INFO     | __main__:main:197 - --- 开始处理 99/3228: 北京华如筑梦管理咨询中心(有限合伙) ---
+2025-12-04 13:31:50.903 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：韩超
+2025-12-04 13:31:50.904 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:50.904 | INFO     | __main__:main:197 - --- 开始处理 100/3228: 北京华如扬帆管理咨询中心(有限合伙) ---
+2025-12-04 13:31:54.191 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：李杰
+2025-12-04 13:31:54.193 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:54.193 | INFO     | __main__:main:197 - --- 开始处理 101/3228: 上海勇达圣商务咨询有限公司 ---
+2025-12-04 13:31:57.552 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：况志勇
+2025-12-04 13:31:57.553 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:31:57.553 | INFO     | __main__:main:197 - --- 开始处理 102/3228: 荆门市宁康企业管理中心(有限合伙) ---
+2025-12-04 13:32:01.122 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：朱晓兵
+2025-12-04 13:32:01.123 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:01.123 | INFO     | __main__:main:197 - --- 开始处理 103/3228: 荆门市倍康企业管理中心(有限合伙) ---
+2025-12-04 13:32:04.513 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：黄正华
+2025-12-04 13:32:04.514 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:04.514 | INFO     | __main__:main:197 - --- 开始处理 104/3228: 中国铁建股份有限公司 ---
+2025-12-04 13:32:08.341 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：戴和根
+2025-12-04 13:32:08.342 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:08.342 | INFO     | __main__:main:197 - --- 开始处理 105/3228: 中国土木工程集团有限公司 ---
+2025-12-04 13:32:11.294 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：刘为民
+2025-12-04 13:32:11.295 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:11.295 | INFO     | __main__:main:197 - --- 开始处理 106/3228: 中国中金财富证券有限公司 ---
+2025-12-04 13:32:14.618 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：王建力
+2025-12-04 13:32:14.619 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:14.620 | INFO     | __main__:main:197 - --- 开始处理 107/3228: 青岛艾特诺经济信息咨询有限公司 ---
+2025-12-04 13:32:17.020 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：陶峰
+2025-12-04 13:32:17.021 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:17.021 | INFO     | __main__:main:197 - --- 开始处理 108/3228: 长葛市宇龙实业股份有限公司 ---
+2025-12-04 13:32:18.886 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：岳朝仁
+2025-12-04 13:32:18.887 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:18.887 | INFO     | __main__:main:197 - --- 开始处理 109/3228: 深圳市嘉仑投资发展有限公司 ---
+2025-12-04 13:32:21.317 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：刘俊锋
+2025-12-04 13:32:21.318 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:21.318 | INFO     | __main__:main:197 - --- 开始处理 110/3228: 共青城正祥投资管理合伙企业(有限合伙) ---
+2025-12-04 13:32:23.064 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：吴新艳
+2025-12-04 13:32:23.065 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:23.065 | INFO     | __main__:main:197 - --- 开始处理 111/3228: 赣州泽祥睿宝投资管理合伙企业(有限合伙) ---
+2025-12-04 13:32:25.738 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：吴新艳
+2025-12-04 13:32:25.739 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:25.739 | INFO     | __main__:main:197 - --- 开始处理 112/3228: 共青城家安睿投资管理合伙企业(有限合伙) ---
+2025-12-04 13:32:29.172 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：吴新艳
+2025-12-04 13:32:29.173 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:29.173 | INFO     | __main__:main:197 - --- 开始处理 113/3228: 共青城龙欣投资管理合伙企业(有限合伙) ---
+2025-12-04 13:32:32.699 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：吴秀荣
+2025-12-04 13:32:32.700 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:32.700 | INFO     | __main__:main:197 - --- 开始处理 114/3228: 北京天童芯源科技有限公司 ---
+2025-12-04 13:32:35.885 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：晋红
+2025-12-04 13:32:35.886 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:35.886 | INFO     | __main__:main:197 - --- 开始处理 115/3228: 北京天童芯源投资管理中心(有限合伙) ---
+2025-12-04 13:32:39.236 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：北京天童芯源科技有限公司 (长度: 12)
+2025-12-04 13:32:41.640 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：晋红
+2025-12-04 13:32:41.641 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:41.641 | INFO     | __main__:main:197 - --- 开始处理 116/3228: 北京天童芯正科技发展中心(有限合伙) ---
+2025-12-04 13:32:43.659 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：北京天童芯源科技有限公司 (长度: 12)
+2025-12-04 13:32:47.349 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：晋红
+2025-12-04 13:32:47.350 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:47.350 | INFO     | __main__:main:197 - --- 开始处理 117/3228: 北京天童芯国科技发展中心(有限合伙) ---
+2025-12-04 13:32:50.370 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：北京天童芯源科技有限公司 (长度: 12)
+2025-12-04 13:32:53.482 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：晋红
+2025-12-04 13:32:53.484 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:53.484 | INFO     | __main__:main:197 - --- 开始处理 118/3228: 林芝鼎孚创业投资管理有限公司-宁波中科百孚创业投资基金合伙企业(有限合伙) ---
+2025-12-04 13:32:56.063 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：胡伟武
+2025-12-04 13:32:56.065 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:32:56.065 | INFO     | __main__:main:197 - --- 开始处理 119/3228: 上海鼎晖百孚投资管理有限公司-上海鼎晖华蕴创业投资中心(有限合伙) ---
+2025-12-04 13:32:59.003 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：上海鼎晖孚舜投资合伙企业（有限合伙） (长度: 18)
+2025-12-04 13:33:01.308 | INFO     | __main__:query_legal_person_with_path:143 - [>>>>>>] 找到法人（仍是公司）：嘉兴鼎晖百孚企业管理有限公司 (长度: 14)
+2025-12-04 13:33:05.068 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>>>>] 成功找到人名法人：赵怀英
+2025-12-04 13:33:05.070 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:05.070 | INFO     | __main__:main:197 - --- 开始处理 120/3228: 首发上市前持股超过5万股的员工股东 ---
+2025-12-04 13:33:06.825 | ERROR    | __main__:query_legal_person_with_path:125 - 反爬机制触发！查询 首发上市前持股超过5万股的员工股东 失败。
+2025-12-04 13:33:06.826 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:06.826 | INFO     | __main__:main:197 - --- 开始处理 121/3228: 首发上市前持有本行股份的本行董事、监事、高级管理人员 ---
+2025-12-04 13:33:08.897 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：张晓玫
+2025-12-04 13:33:08.898 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:08.898 | INFO     | __main__:main:197 - --- 开始处理 122/3228: 首发上市前持有本行股份的本行董事、监事、高级管理人员近亲属 ---
+2025-12-04 13:33:11.283 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：张晓玫
+2025-12-04 13:33:11.284 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:11.284 | INFO     | __main__:main:197 - --- 开始处理 123/3228: 康拓有限公司 ---
+2025-12-04 13:33:13.283 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：李洪文
+2025-12-04 13:33:13.284 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:13.284 | INFO     | __main__:main:197 - --- 开始处理 124/3228: Schroders Capital Private Equity Asia Hong Kong I Limited ---
+2025-12-04 13:33:16.529 | ERROR    | __main__:query_legal_person_with_path:125 - 反爬机制触发！查询 Schroders Capital Private Equity Asia Hong Kong I Limited 失败。
+2025-12-04 13:33:16.530 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:16.531 | INFO     | __main__:main:197 - --- 开始处理 125/3228: 苏州君联欣康创业投资合伙企业(有限合伙) ---
+2025-12-04 13:33:19.344 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：拉萨君祺企业管理有限公司 (长度: 12)
+2025-12-04 13:33:22.852 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：欧阳浩
+2025-12-04 13:33:22.853 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:22.853 | INFO     | __main__:main:197 - --- 开始处理 126/3228: ASP Hero SPV Limited ---
+2025-12-04 13:33:26.529 | ERROR    | __main__:query_legal_person_with_path:125 - 反爬机制触发！查询 ASP Hero SPV Limited 失败。
+2025-12-04 13:33:26.530 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:26.530 | INFO     | __main__:main:197 - --- 开始处理 127/3228: 中金启辰(苏州)新兴产业股权投资基金合伙企业(有限合伙) ---
+2025-12-04 13:33:30.274 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：中金资本运营有限公司 (长度: 10)
+2025-12-04 13:33:33.507 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：龙亮
+2025-12-04 13:33:33.509 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:33.509 | INFO     | __main__:main:197 - --- 开始处理 128/3228: 嘉兴辰幂德股权投资合伙企业(有限合伙) ---
+2025-12-04 13:33:36.058 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：上海迦辰企业管理咨询有限公司 (长度: 14)
+2025-12-04 13:33:37.858 | INFO     | __main__:query_legal_person_with_path:143 - [>>>>>>] 找到法人（仍是公司）：CHING TAN (长度: 9)
+2025-12-04 13:33:40.069 | INFO     | __main__:query_legal_person_with_path:143 - [>>>>>>>>>] 找到法人（仍是公司）：CHING TAN (长度: 9)
+2025-12-04 13:33:40.069 | WARNING  | __main__:query_legal_person_with_path:104 - 超过最大路径深度 3，停止查询。
+2025-12-04 13:33:40.071 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:40.071 | INFO     | __main__:main:197 - --- 开始处理 129/3228: 中信证券投资有限公司 ---
+2025-12-04 13:33:43.488 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：方浩
+2025-12-04 13:33:43.489 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:43.490 | INFO     | __main__:main:197 - --- 开始处理 130/3228: 厦门建发新兴产业股权投资柒号合伙企业(有限合伙) ---
+2025-12-04 13:33:47.323 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 厦门建发新兴产业股权投资柒号合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%8E%A6%E9%97%A8%E5%BB%BA%E5%8F%91%E6%96%B0%E5%85%B4%E4%BA%A7%E4%B8%9A%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E6%9F%92%E5%8F%B7%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:33:47.329 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:47.330 | INFO     | __main__:main:197 - --- 开始处理 131/3228: 金石制造业转型升级新材料基金(有限合伙) ---
+2025-12-04 13:33:50.227 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 金石制造业转型升级新材料基金(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E9%87%91%E7%9F%B3%E5%88%B6%E9%80%A0%E4%B8%9A%E8%BD%AC%E5%9E%8B%E5%8D%87%E7%BA%A7%E6%96%B0%E6%9D%90%E6%96%99%E5%9F%BA%E9%87%91%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:33:50.233 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:50.233 | INFO     | __main__:main:197 - --- 开始处理 132/3228: 江苏紫金弘云健康产业投资合伙企业(有限合伙) ---
+2025-12-04 13:33:53.933 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 江苏紫金弘云健康产业投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%B1%9F%E8%8B%8F%E7%B4%AB%E9%87%91%E5%BC%98%E4%BA%91%E5%81%A5%E5%BA%B7%E4%BA%A7%E4%B8%9A%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:33:53.939 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:53.940 | INFO     | __main__:main:197 - --- 开始处理 133/3228: 苏州辰知德投资合伙企业(有限合伙) ---
+2025-12-04 13:33:57.506 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 苏州辰知德投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E8%8B%8F%E5%B7%9E%E8%BE%B0%E7%9F%A5%E5%BE%B7%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:33:57.511 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:33:57.512 | INFO     | __main__:main:197 - --- 开始处理 134/3228: 同源(天津)企业管理中心(有限合伙) ---
+2025-12-04 13:34:00.073 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 同源(天津)企业管理中心(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%90%8C%E6%BA%90%28%E5%A4%A9%E6%B4%A5%29%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:34:00.077 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:00.078 | INFO     | __main__:main:197 - --- 开始处理 135/3228: 阿里巴巴(中国)网络技术有限公司 ---
+2025-12-04 13:34:02.861 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 阿里巴巴(中国)网络技术有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%28%E4%B8%AD%E5%9B%BD%29%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:34:02.867 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:02.868 | INFO     | __main__:main:197 - --- 开始处理 136/3228: HCHP Holdco A,Ltd. ---
+2025-12-04 13:34:06.731 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 HCHP Holdco A,Ltd. 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=HCHP+Holdco+A%2CLtd.
+2025-12-04 13:34:06.737 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:06.738 | INFO     | __main__:main:197 - --- 开始处理 137/3228: 方正证券投资有限公司 ---
+2025-12-04 13:34:09.598 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 方正证券投资有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%96%B9%E6%AD%A3%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:34:09.604 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:09.604 | INFO     | __main__:main:197 - --- 开始处理 138/3228: 后浪(天津)企业管理中心(有限合伙) ---
+2025-12-04 13:34:12.633 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 后浪(天津)企业管理中心(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%90%8E%E6%B5%AA%28%E5%A4%A9%E6%B4%A5%29%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:34:12.640 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:12.641 | INFO     | __main__:main:197 - --- 开始处理 139/3228: 海南华益创业投资合伙企业(有限合伙) ---
+2025-12-04 13:34:16.288 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 海南华益创业投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%B5%B7%E5%8D%97%E5%8D%8E%E7%9B%8A%E5%88%9B%E4%B8%9A%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:34:16.292 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:16.293 | INFO     | __main__:main:197 - --- 开始处理 140/3228: 深圳睿和恒投资咨询中心(有限合伙) ---
+2025-12-04 13:34:18.874 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 深圳睿和恒投资咨询中心(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%B7%B1%E5%9C%B3%E7%9D%BF%E5%92%8C%E6%81%92%E6%8A%95%E8%B5%84%E5%92%A8%E8%AF%A2%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:34:18.880 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:18.880 | INFO     | __main__:main:197 - --- 开始处理 141/3228: 苏州君联相道股权投资合伙企业(有限合伙) ---
+2025-12-04 13:34:22.137 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 苏州君联相道股权投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E8%8B%8F%E5%B7%9E%E5%90%9B%E8%81%94%E7%9B%B8%E9%81%93%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:34:22.140 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:22.141 | INFO     | __main__:main:197 - --- 开始处理 142/3228: 珠海君联嘉茂股权投资企业(有限合伙) ---
+2025-12-04 13:34:25.421 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 珠海君联嘉茂股权投资企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E7%8F%A0%E6%B5%B7%E5%90%9B%E8%81%94%E5%98%89%E8%8C%82%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:34:25.426 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:25.427 | INFO     | __main__:main:197 - --- 开始处理 143/3228: 国金证券资管-兴业银行-国金资管永臻科技员工参与主板战略配售集合资产管理计划 ---
+2025-12-04 13:34:28.475 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 国金证券资管-兴业银行-国金资管永臻科技员工参与主板战略配售集合资产管理计划 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%9B%BD%E9%87%91%E8%AF%81%E5%88%B8%E8%B5%84%E7%AE%A1-%E5%85%B4%E4%B8%9A%E9%93%B6%E8%A1%8C-%E5%9B%BD%E9%87%91%E8%B5%84%E7%AE%A1%E6%B0%B8%E8%87%BB%E7%A7%91%E6%8A%80%E5%91%98%E5%B7%A5%E5%8F%82%E4%B8%8E%E4%B8%BB%E6%9D%BF%E6%88%98%E7%95%A5%E9%85%8D%E5%94%AE%E9%9B%86%E5%90%88%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92
+2025-12-04 13:34:28.481 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:28.482 | INFO     | __main__:main:197 - --- 开始处理 144/3228: 天合智慧能源投资发展(江苏)有限公司 ---
+2025-12-04 13:34:31.680 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 天合智慧能源投资发展(江苏)有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%A4%A9%E5%90%88%E6%99%BA%E6%85%A7%E8%83%BD%E6%BA%90%E6%8A%95%E8%B5%84%E5%8F%91%E5%B1%95%28%E6%B1%9F%E8%8B%8F%29%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:34:31.684 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:31.685 | INFO     | __main__:main:197 - --- 开始处理 145/3228: 珠海市联合正信资产管理有限公司-珠海市联合正信九号股权投资基金合伙企业(有限合伙) ---
+2025-12-04 13:34:35.455 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 珠海市联合正信资产管理有限公司-珠海市联合正信九号股权投资基金合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E7%8F%A0%E6%B5%B7%E5%B8%82%E8%81%94%E5%90%88%E6%AD%A3%E4%BF%A1%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E7%8F%A0%E6%B5%B7%E5%B8%82%E8%81%94%E5%90%88%E6%AD%A3%E4%BF%A1%E4%B9%9D%E5%8F%B7%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:34:35.461 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:35.462 | INFO     | __main__:main:197 - --- 开始处理 146/3228: 珠海市联合正信资产管理有限公司-珠海正信特新一号股权投资基金合伙企业(有限合伙) ---
+2025-12-04 13:34:39.029 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 珠海市联合正信资产管理有限公司-珠海正信特新一号股权投资基金合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E7%8F%A0%E6%B5%B7%E5%B8%82%E8%81%94%E5%90%88%E6%AD%A3%E4%BF%A1%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E7%8F%A0%E6%B5%B7%E6%AD%A3%E4%BF%A1%E7%89%B9%E6%96%B0%E4%B8%80%E5%8F%B7%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:34:39.035 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:39.036 | INFO     | __main__:main:197 - --- 开始处理 147/3228: 常州市金坛区永信实业投资合伙企业(有限合伙) ---
+2025-12-04 13:34:41.055 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 常州市金坛区永信实业投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%B8%B8%E5%B7%9E%E5%B8%82%E9%87%91%E5%9D%9B%E5%8C%BA%E6%B0%B8%E4%BF%A1%E5%AE%9E%E4%B8%9A%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:34:41.061 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:41.062 | INFO     | __main__:main:197 - --- 开始处理 148/3228: 上海泓成创业投资合伙企业(有限合伙) ---
+2025-12-04 13:34:43.800 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 上海泓成创业投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E6%B3%93%E6%88%90%E5%88%9B%E4%B8%9A%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:34:43.803 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:43.804 | INFO     | __main__:main:197 - --- 开始处理 149/3228: 上海祥禾涌原股权投资合伙企业(有限合伙) ---
+2025-12-04 13:34:46.979 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 上海祥禾涌原股权投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E7%A5%A5%E7%A6%BE%E6%B6%8C%E5%8E%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:34:46.985 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:46.986 | INFO     | __main__:main:197 - --- 开始处理 150/3228: 常州金沙科技投资有限公司 ---
+2025-12-04 13:34:50.368 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 常州金沙科技投资有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%B8%B8%E5%B7%9E%E9%87%91%E6%B2%99%E7%A7%91%E6%8A%80%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:34:50.373 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:50.374 | INFO     | __main__:main:197 - --- 开始处理 151/3228: 中泰创业投资(上海)有限公司 ---
+2025-12-04 13:34:54.604 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 中泰创业投资(上海)有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E6%B3%B0%E5%88%9B%E4%B8%9A%E6%8A%95%E8%B5%84%28%E4%B8%8A%E6%B5%B7%29%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:34:54.606 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:34:54.606 | INFO     | __main__:main:197 - --- 开始处理 152/3228: 中信金石投资有限公司-金石制造业转型升级新材料基金(有限合伙) ---
+2025-12-04 13:35:56.685 | ERROR    | __main__:main:228 - 主程序发生未知错误: 'generator' object is not subscriptable
+2025-12-04 13:36:00.875 | ERROR    | __main__:main:228 - 主程序发生未知错误: 'generator' object is not subscriptable
+2025-12-04 13:36:49.690 | INFO     | __main__:main:197 - --- 开始处理 130/3228: 厦门建发新兴产业股权投资柒号合伙企业(有限合伙) ---
+2025-12-04 13:36:53.169 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：厦门建鑫投资有限公司 (长度: 10)
+2025-12-04 13:36:56.747 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：蔡晓帆
+2025-12-04 13:36:56.750 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:36:56.751 | INFO     | __main__:main:197 - --- 开始处理 131/3228: 金石制造业转型升级新材料基金(有限合伙) ---
+2025-12-04 13:37:00.799 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：金石投资有限公司 (长度: 8)
+2025-12-04 13:37:03.893 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：常军胜
+2025-12-04 13:37:03.894 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:03.894 | INFO     | __main__:main:197 - --- 开始处理 132/3228: 江苏紫金弘云健康产业投资合伙企业(有限合伙) ---
+2025-12-04 13:37:05.817 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：华泰紫金投资有限责任公司 (长度: 12)
+2025-12-04 13:37:08.756 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：曹群
+2025-12-04 13:37:08.757 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:08.757 | INFO     | __main__:main:197 - --- 开始处理 133/3228: 苏州辰知德投资合伙企业(有限合伙) ---
+2025-12-04 13:37:11.762 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：上海甲辰私募基金管理有限公司 (长度: 14)
+2025-12-04 13:37:15.167 | INFO     | __main__:query_legal_person_with_path:143 - [>>>>>>] 找到法人（仍是公司）：TAN CHING (长度: 9)
+2025-12-04 13:37:17.104 | INFO     | __main__:query_legal_person_with_path:143 - [>>>>>>>>>] 找到法人（仍是公司）：TAN CHING (长度: 9)
+2025-12-04 13:37:17.104 | WARNING  | __main__:query_legal_person_with_path:104 - 超过最大路径深度 3，停止查询。
+2025-12-04 13:37:17.106 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:17.106 | INFO     | __main__:main:197 - --- 开始处理 134/3228: 同源(天津)企业管理中心(有限合伙) ---
+2025-12-04 13:37:19.486 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：张野川
+2025-12-04 13:37:19.487 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:19.487 | INFO     | __main__:main:197 - --- 开始处理 135/3228: 阿里巴巴(中国)网络技术有限公司 ---
+2025-12-04 13:37:21.886 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：蒋芳
+2025-12-04 13:37:21.887 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:21.887 | INFO     | __main__:main:197 - --- 开始处理 136/3228: HCHP Holdco A,Ltd. ---
+2025-12-04 13:37:24.686 | ERROR    | __main__:query_legal_person_with_path:125 - 反爬机制触发！查询 HCHP Holdco A,Ltd. 失败。
+2025-12-04 13:37:24.687 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:24.687 | INFO     | __main__:main:197 - --- 开始处理 137/3228: 方正证券投资有限公司 ---
+2025-12-04 13:37:27.881 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：崔肖
+2025-12-04 13:37:27.882 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:27.883 | INFO     | __main__:main:197 - --- 开始处理 138/3228: 后浪(天津)企业管理中心(有限合伙) ---
+2025-12-04 13:37:31.415 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：白春后
+2025-12-04 13:37:31.417 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:31.417 | INFO     | __main__:main:197 - --- 开始处理 139/3228: 海南华益创业投资合伙企业(有限合伙) ---
+2025-12-04 13:37:34.500 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：张茜
+2025-12-04 13:37:34.501 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:34.501 | INFO     | __main__:main:197 - --- 开始处理 140/3228: 深圳睿和恒投资咨询中心(有限合伙) ---
+2025-12-04 13:37:37.271 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：深圳高瓴天成三期投资有限公司 (长度: 14)
+2025-12-04 13:37:40.787 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：马翠芳
+2025-12-04 13:37:40.789 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:40.789 | INFO     | __main__:main:197 - --- 开始处理 141/3228: 苏州君联相道股权投资合伙企业(有限合伙) ---
+2025-12-04 13:37:43.340 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：拉萨君祺企业管理有限公司 (长度: 12)
+2025-12-04 13:37:45.976 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：欧阳浩
+2025-12-04 13:37:45.977 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:45.977 | INFO     | __main__:main:197 - --- 开始处理 142/3228: 珠海君联嘉茂股权投资企业(有限合伙) ---
+2025-12-04 13:37:48.287 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：拉萨君祺企业管理有限公司 (长度: 12)
+2025-12-04 13:37:51.024 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：欧阳浩
+2025-12-04 13:37:51.025 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:51.026 | INFO     | __main__:main:197 - --- 开始处理 143/3228: 国金证券资管-兴业银行-国金资管永臻科技员工参与主板战略配售集合资产管理计划 ---
+2025-12-04 13:37:52.891 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：汪献利
+2025-12-04 13:37:52.892 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:52.892 | INFO     | __main__:main:197 - --- 开始处理 144/3228: 天合智慧能源投资发展(江苏)有限公司 ---
+2025-12-04 13:37:55.232 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：朱文瑾
+2025-12-04 13:37:55.233 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:55.233 | INFO     | __main__:main:197 - --- 开始处理 145/3228: 珠海市联合正信资产管理有限公司-珠海市联合正信九号股权投资基金合伙企业(有限合伙) ---
+2025-12-04 13:37:58.462 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：汪献利
+2025-12-04 13:37:58.463 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:37:58.463 | INFO     | __main__:main:197 - --- 开始处理 146/3228: 珠海市联合正信资产管理有限公司-珠海正信特新一号股权投资基金合伙企业(有限合伙) ---
+2025-12-04 13:38:01.289 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：汪献利
+2025-12-04 13:38:01.291 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:01.291 | INFO     | __main__:main:197 - --- 开始处理 147/3228: 常州市金坛区永信实业投资合伙企业(有限合伙) ---
+2025-12-04 13:38:03.119 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：刘烈胜
+2025-12-04 13:38:03.120 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:03.120 | INFO     | __main__:main:197 - --- 开始处理 148/3228: 上海泓成创业投资合伙企业(有限合伙) ---
+2025-12-04 13:38:05.731 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：上海纳米创业投资有限公司 (长度: 12)
+2025-12-04 13:38:08.314 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：刘明
+2025-12-04 13:38:08.315 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:08.315 | INFO     | __main__:main:197 - --- 开始处理 149/3228: 上海祥禾涌原股权投资合伙企业(有限合伙) ---
+2025-12-04 13:38:11.549 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：上海涌共投资合伙企业（有限合伙） (长度: 16)
+2025-12-04 13:38:14.674 | INFO     | __main__:query_legal_person_with_path:143 - [>>>>>>] 找到法人（仍是公司）：上海涌铧投资管理有限公司 (长度: 12)
+2025-12-04 13:38:17.320 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>>>>] 成功找到人名法人：高冬
+2025-12-04 13:38:17.321 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:17.322 | INFO     | __main__:main:197 - --- 开始处理 150/3228: 常州金沙科技投资有限公司 ---
+2025-12-04 13:38:21.108 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：胡婧
+2025-12-04 13:38:21.110 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:21.110 | INFO     | __main__:main:197 - --- 开始处理 151/3228: 中泰创业投资(上海)有限公司 ---
+2025-12-04 13:38:24.571 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：姜颖
+2025-12-04 13:38:24.573 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:24.573 | INFO     | __main__:main:197 - --- 开始处理 152/3228: 中信金石投资有限公司-金石制造业转型升级新材料基金(有限合伙) ---
+2025-12-04 13:38:28.433 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：吴江伟
+2025-12-04 13:38:28.434 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:28.434 | INFO     | __main__:main:197 - --- 开始处理 153/3228: 晶澳太阳能科技股份有限公司 ---
+2025-12-04 13:38:30.197 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：靳保芳
+2025-12-04 13:38:30.199 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:30.199 | INFO     | __main__:main:197 - --- 开始处理 154/3228: 苏州阿特斯投资管理有限公司 ---
+2025-12-04 13:38:32.257 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：许津驰
+2025-12-04 13:38:32.259 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:32.259 | INFO     | __main__:main:197 - --- 开始处理 155/3228: 常州市金坛区永实实业投资合伙企业(有限合伙) ---
+2025-12-04 13:38:35.004 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：高文林
+2025-12-04 13:38:35.005 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:35.005 | INFO     | __main__:main:197 - --- 开始处理 156/3228: 常州市金坛区红石实业投资合伙企业(有限合伙) ---
+2025-12-04 13:38:38.711 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：周边红
+2025-12-04 13:38:38.712 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:38.712 | INFO     | __main__:main:197 - --- 开始处理 157/3228: 常州市昕卓实业投资合伙企业(有限合伙) ---
+2025-12-04 13:38:41.774 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：邵莹君
+2025-12-04 13:38:41.775 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:41.775 | INFO     | __main__:main:197 - --- 开始处理 158/3228: 申银万国创新证券投资有限公司 ---
+2025-12-04 13:38:44.238 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：徐业伟
+2025-12-04 13:38:44.239 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:44.239 | INFO     | __main__:main:197 - --- 开始处理 159/3228: 海通创新证券投资有限公司 ---
+2025-12-04 13:38:46.691 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：李保国
+2025-12-04 13:38:46.692 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:46.692 | INFO     | __main__:main:197 - --- 开始处理 160/3228: 深圳浦特科技企业(有限合伙) ---
+2025-12-04 13:38:50.424 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 深圳浦特科技企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%B7%B1%E5%9C%B3%E6%B5%A6%E7%89%B9%E7%A7%91%E6%8A%80%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:38:50.429 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:50.430 | INFO     | __main__:main:197 - --- 开始处理 161/3228: 深圳市泛海统联科技企业(有限合伙) ---
+2025-12-04 13:38:53.662 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 深圳市泛海统联科技企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B3%9B%E6%B5%B7%E7%BB%9F%E8%81%94%E7%A7%91%E6%8A%80%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:38:53.667 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:53.668 | INFO     | __main__:main:197 - --- 开始处理 162/3228: 中信证券投资有限公司 ---
+2025-12-04 13:38:56.173 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 中信证券投资有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E4%BF%A1%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:38:56.178 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:56.179 | INFO     | __main__:main:197 - --- 开始处理 163/3228: 华泰创新投资有限公司 ---
+2025-12-04 13:38:59.211 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 华泰创新投资有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%8D%8E%E6%B3%B0%E5%88%9B%E6%96%B0%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:38:59.212 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:38:59.212 | INFO     | __main__:main:197 - --- 开始处理 164/3228: 中信建投投资有限公司 ---
+2025-12-04 13:39:03.063 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 中信建投投资有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E4%BF%A1%E5%BB%BA%E6%8A%95%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:39:03.069 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:39:03.070 | INFO     | __main__:main:197 - --- 开始处理 165/3228: 上海阳卓投资合伙企业(有限合伙) ---
+2025-12-04 13:39:05.821 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 上海阳卓投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E9%98%B3%E5%8D%93%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:39:05.824 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:39:05.824 | INFO     | __main__:main:197 - --- 开始处理 166/3228: 上海砥石企业管理咨询有限公司 ---
+2025-12-04 13:41:20.548 | INFO     | __main__:main:197 - --- 开始处理 160/3228: 深圳浦特科技企业(有限合伙) ---
+2025-12-04 13:41:23.984 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：深圳致亦企业管理咨询有限公司 (长度: 14)
+2025-12-04 13:41:25.911 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：杨虎
+2025-12-04 13:41:25.915 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:41:25.915 | INFO     | __main__:main:197 - --- 开始处理 161/3228: 深圳市泛海统联科技企业(有限合伙) ---
+2025-12-04 13:41:27.947 | INFO     | __main__:query_legal_person_with_path:143 - [>>>] 找到法人（仍是公司）：深圳致亦企业管理咨询有限公司 (长度: 14)
+2025-12-04 13:41:29.938 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>>>>] 成功找到人名法人：杨虎
+2025-12-04 13:41:29.939 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:41:29.940 | INFO     | __main__:main:197 - --- 开始处理 162/3228: 中信证券投资有限公司 ---
+2025-12-04 13:41:33.679 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：方浩
+2025-12-04 13:41:33.680 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:41:33.680 | INFO     | __main__:main:197 - --- 开始处理 163/3228: 华泰创新投资有限公司 ---
+2025-12-04 13:41:36.776 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：孙颖
+2025-12-04 13:41:36.778 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:41:36.778 | INFO     | __main__:main:197 - --- 开始处理 164/3228: 中信建投投资有限公司 ---
+2025-12-04 13:41:40.980 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：李旭东
+2025-12-04 13:41:40.981 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:41:40.982 | INFO     | __main__:main:197 - --- 开始处理 165/3228: 上海阳卓投资合伙企业(有限合伙) ---
+2025-12-04 13:41:43.148 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：冷兆武
+2025-12-04 13:41:43.149 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:41:43.149 | INFO     | __main__:main:197 - --- 开始处理 166/3228: 上海砥石企业管理咨询有限公司 ---
+2025-12-04 13:41:46.389 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：费俭
+2025-12-04 13:41:46.390 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:41:46.390 | INFO     | __main__:main:197 - --- 开始处理 167/3228: 上海璞钰企业管理咨询合伙企业(有限合伙) ---
+2025-12-04 13:41:49.927 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：费俭
+2025-12-04 13:41:49.928 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:41:49.928 | INFO     | __main__:main:197 - --- 开始处理 168/3228: 上海砥君企业管理咨询合伙企业(有限合伙) ---
+2025-12-04 13:41:53.150 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：王明俊
+2025-12-04 13:41:53.151 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:41:53.151 | INFO     | __main__:main:197 - --- 开始处理 169/3228: 深圳奥信通创新投资有限公司 ---
+2025-12-04 13:41:55.512 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：吴世杰
+2025-12-04 13:41:55.513 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:41:55.513 | INFO     | __main__:main:197 - --- 开始处理 170/3228: 深圳前海汇鑫投资合伙企业(有限合伙) ---
+2025-12-04 13:41:58.672 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：吴世杰
+2025-12-04 13:41:58.673 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:41:58.673 | INFO     | __main__:main:197 - --- 开始处理 171/3228: 深圳前海中泰富兴投资合伙企业(有限合伙) ---
+2025-12-04 13:42:01.703 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：吴承辉
+2025-12-04 13:42:01.704 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:01.704 | INFO     | __main__:main:197 - --- 开始处理 172/3228: 广东信邦自动化设备集团有限公司 ---
+2025-12-04 13:42:03.900 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：李罡
+2025-12-04 13:42:03.901 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:03.901 | INFO     | __main__:main:197 - --- 开始处理 173/3228: 共青城国邦投资管理合伙企业(有限合伙) ---
+2025-12-04 13:42:07.069 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：余希平
+2025-12-04 13:42:07.070 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:07.071 | INFO     | __main__:main:197 - --- 开始处理 174/3228: 珠海横琴信邦投资合伙企业(有限合伙) ---
+2025-12-04 13:42:09.739 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：余希平
+2025-12-04 13:42:09.740 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:09.740 | INFO     | __main__:main:197 - --- 开始处理 175/3228: 共青城信邦投资合伙企业(有限合伙) ---
+2025-12-04 13:42:11.994 | SUCCESS  | __main__:query_legal_person_with_path:140 - [>>>] 成功找到人名法人：余希平
+2025-12-04 13:42:11.995 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:11.995 | INFO     | __main__:main:197 - --- 开始处理 176/3228: 湖北天源环保集团有限公司 ---
+2025-12-04 13:42:15.979 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 湖北天源环保集团有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%B9%96%E5%8C%97%E5%A4%A9%E6%BA%90%E7%8E%AF%E4%BF%9D%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:42:15.986 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:15.986 | INFO     | __main__:main:197 - --- 开始处理 177/3228: KLProTech H.K. Limited ---
+2025-12-04 13:42:19.986 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 KLProTech H.K. Limited 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=KLProTech+H.K.+Limited
+2025-12-04 13:42:19.991 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:19.992 | INFO     | __main__:main:197 - --- 开始处理 178/3228: 共青城明伦投资合伙企业(有限合伙) ---
+2025-12-04 13:42:23.257 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 共青城明伦投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%85%B1%E9%9D%92%E5%9F%8E%E6%98%8E%E4%BC%A6%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:42:23.260 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:23.260 | INFO     | __main__:main:197 - --- 开始处理 179/3228: 共青城峰伦投资合伙企业(有限合伙) ---
+2025-12-04 13:42:27.087 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 共青城峰伦投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%85%B1%E9%9D%92%E5%9F%8E%E5%B3%B0%E4%BC%A6%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:42:27.093 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:27.094 | INFO     | __main__:main:197 - --- 开始处理 180/3228: 共青城伟伦投资合伙企业(有限合伙) ---
+2025-12-04 13:42:30.796 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 共青城伟伦投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%85%B1%E9%9D%92%E5%9F%8E%E4%BC%9F%E4%BC%A6%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:42:30.802 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:30.803 | INFO     | __main__:main:197 - --- 开始处理 181/3228: 共青城经伦投资合伙企业(有限合伙) ---
+2025-12-04 13:42:32.802 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 共青城经伦投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%85%B1%E9%9D%92%E5%9F%8E%E7%BB%8F%E4%BC%A6%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:42:32.807 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:32.808 | INFO     | __main__:main:197 - --- 开始处理 182/3228: 共青城毅伦投资合伙企业(有限合伙) ---
+2025-12-04 13:42:35.818 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 共青城毅伦投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%85%B1%E9%9D%92%E5%9F%8E%E6%AF%85%E4%BC%A6%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:42:35.822 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:35.822 | INFO     | __main__:main:197 - --- 开始处理 183/3228: 共青城智伦投资合伙企业(有限合伙) ---
+2025-12-04 13:42:39.767 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 共青城智伦投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%85%B1%E9%9D%92%E5%9F%8E%E6%99%BA%E4%BC%A6%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:42:39.773 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:39.774 | INFO     | __main__:main:197 - --- 开始处理 184/3228: 井冈山兴伦投资合伙企业(有限合伙) ---
+2025-12-04 13:42:42.221 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 井冈山兴伦投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%BA%95%E5%86%88%E5%B1%B1%E5%85%B4%E4%BC%A6%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:42:42.226 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:42.227 | INFO     | __main__:main:197 - --- 开始处理 185/3228: 新和成控股集团有限公司 ---
+2025-12-04 13:42:44.660 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 新和成控股集团有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%96%B0%E5%92%8C%E6%88%90%E6%8E%A7%E8%82%A1%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:42:44.668 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:44.669 | INFO     | __main__:main:197 - --- 开始处理 186/3228: 新昌勤进投资有限公司 ---
+2025-12-04 13:42:48.295 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 新昌勤进投资有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%96%B0%E6%98%8C%E5%8B%A4%E8%BF%9B%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:42:48.301 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:48.302 | INFO     | __main__:main:197 - --- 开始处理 187/3228: 中国航空工业集团有限公司 ---
+2025-12-04 13:42:50.900 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 中国航空工业集团有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E5%9B%BD%E8%88%AA%E7%A9%BA%E5%B7%A5%E4%B8%9A%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:42:50.903 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:50.904 | INFO     | __main__:main:197 - --- 开始处理 188/3228: 中国航空工业集团公司成都飞机设计研究所 ---
+2025-12-04 13:42:54.702 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 中国航空工业集团公司成都飞机设计研究所 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E5%9B%BD%E8%88%AA%E7%A9%BA%E5%B7%A5%E4%B8%9A%E9%9B%86%E5%9B%A2%E5%85%AC%E5%8F%B8%E6%88%90%E9%83%BD%E9%A3%9E%E6%9C%BA%E8%AE%BE%E8%AE%A1%E7%A0%94%E7%A9%B6%E6%89%80
+2025-12-04 13:42:54.707 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:54.708 | INFO     | __main__:main:197 - --- 开始处理 189/3228: 成都飞机工业(集团)有限责任公司 ---
+2025-12-04 13:42:58.323 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 成都飞机工业(集团)有限责任公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%88%90%E9%83%BD%E9%A3%9E%E6%9C%BA%E5%B7%A5%E4%B8%9A%28%E9%9B%86%E5%9B%A2%29%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8
+2025-12-04 13:42:58.327 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:42:58.327 | INFO     | __main__:main:197 - --- 开始处理 190/3228: 中航技进出口有限责任公司 ---
+2025-12-04 13:43:01.049 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 中航技进出口有限责任公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E8%88%AA%E6%8A%80%E8%BF%9B%E5%87%BA%E5%8F%A3%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8
+2025-12-04 13:43:01.054 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:01.055 | INFO     | __main__:main:197 - --- 开始处理 191/3228: 成都颐同人企业管理合伙企业(有限合伙) ---
+2025-12-04 13:43:05.004 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 成都颐同人企业管理合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%88%90%E9%83%BD%E9%A2%90%E5%90%8C%E4%BA%BA%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:43:05.008 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:05.008 | INFO     | __main__:main:197 - --- 开始处理 192/3228: 成都泰萃企业管理合伙企业(有限合伙) ---
+2025-12-04 13:43:08.294 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 成都泰萃企业管理合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%88%90%E9%83%BD%E6%B3%B0%E8%90%83%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:43:08.296 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:08.296 | INFO     | __main__:main:197 - --- 开始处理 193/3228: 中航融富基金管理有限公司-北京中航一期航空工业产业投资基金(有限合伙) ---
+2025-12-04 13:43:11.971 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 中航融富基金管理有限公司-北京中航一期航空工业产业投资基金(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E8%88%AA%E8%9E%8D%E5%AF%8C%E5%9F%BA%E9%87%91%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E5%8C%97%E4%BA%AC%E4%B8%AD%E8%88%AA%E4%B8%80%E6%9C%9F%E8%88%AA%E7%A9%BA%E5%B7%A5%E4%B8%9A%E4%BA%A7%E4%B8%9A%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:43:11.975 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:11.976 | INFO     | __main__:main:197 - --- 开始处理 194/3228: 航证科创投资有限公司 ---
+2025-12-04 13:43:16.132 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 航证科创投资有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E8%88%AA%E8%AF%81%E7%A7%91%E5%88%9B%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:43:16.138 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:16.139 | INFO     | __main__:main:197 - --- 开始处理 195/3228: 上海电缆研究所有限公司 ---
+2025-12-04 13:43:18.332 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 上海电缆研究所有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E7%94%B5%E7%BC%86%E7%A0%94%E7%A9%B6%E6%89%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:43:18.338 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:18.339 | INFO     | __main__:main:197 - --- 开始处理 196/3228: 申能(集团)有限公司 ---
+2025-12-04 13:43:20.981 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 申能(集团)有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E7%94%B3%E8%83%BD%28%E9%9B%86%E5%9B%A2%29%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:43:20.988 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:20.989 | INFO     | __main__:main:197 - --- 开始处理 197/3228: 广德广和管理投资合伙企业(有限合伙) ---
+2025-12-04 13:43:23.873 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 广德广和管理投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%B9%BF%E5%BE%B7%E5%B9%BF%E5%92%8C%E7%AE%A1%E7%90%86%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:43:23.878 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:23.879 | INFO     | __main__:main:197 - --- 开始处理 198/3228: 佛山市顺德区维而登管理咨询合伙企业(有限合伙) ---
+2025-12-04 13:43:26.823 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 佛山市顺德区维而登管理咨询合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%BD%9B%E5%B1%B1%E5%B8%82%E9%A1%BA%E5%BE%B7%E5%8C%BA%E7%BB%B4%E8%80%8C%E7%99%BB%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:43:26.828 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:26.829 | INFO     | __main__:main:197 - --- 开始处理 199/3228: 淮安豪信液压有限公司 ---
+2025-12-04 13:43:29.046 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 淮安豪信液压有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%B7%AE%E5%AE%89%E8%B1%AA%E4%BF%A1%E6%B6%B2%E5%8E%8B%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:43:29.050 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:29.051 | INFO     | __main__:main:197 - --- 开始处理 200/3228: 淮安众博信息咨询服务有限公司 ---
+2025-12-04 13:43:32.747 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 淮安众博信息咨询服务有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%B7%AE%E5%AE%89%E4%BC%97%E5%8D%9A%E4%BF%A1%E6%81%AF%E5%92%A8%E8%AF%A2%E6%9C%8D%E5%8A%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:43:32.749 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:32.750 | INFO     | __main__:main:197 - --- 开始处理 201/3228: 宁波思辉创业投资合伙企业(有限合伙) ---
+2025-12-04 13:43:35.178 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 宁波思辉创业投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%AE%81%E6%B3%A2%E6%80%9D%E8%BE%89%E5%88%9B%E4%B8%9A%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:43:35.182 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:35.182 | INFO     | __main__:main:197 - --- 开始处理 202/3228: 浙江财通资本投资有限公司-金华市金开产业引领投资合伙企业(有限合伙) ---
+2025-12-04 13:43:38.949 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 浙江财通资本投资有限公司-金华市金开产业引领投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%B5%99%E6%B1%9F%E8%B4%A2%E9%80%9A%E8%B5%84%E6%9C%AC%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E9%87%91%E5%8D%8E%E5%B8%82%E9%87%91%E5%BC%80%E4%BA%A7%E4%B8%9A%E5%BC%95%E9%A2%86%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:43:38.954 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:38.955 | INFO     | __main__:main:197 - --- 开始处理 203/3228: 财通创新投资有限公司 ---
+2025-12-04 13:43:41.937 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 财通创新投资有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E8%B4%A2%E9%80%9A%E5%88%9B%E6%96%B0%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 13:43:41.941 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:41.942 | INFO     | __main__:main:197 - --- 开始处理 204/3228: 北京维恒管理咨询中心(有限合伙) ---
+2025-12-04 13:43:45.502 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 北京维恒管理咨询中心(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%8C%97%E4%BA%AC%E7%BB%B4%E6%81%92%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:43:45.508 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:45.509 | INFO     | __main__:main:197 - --- 开始处理 205/3228: 北京三维智鉴管理咨询中心(有限合伙) ---
+2025-12-04 13:43:48.712 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 北京三维智鉴管理咨询中心(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%8C%97%E4%BA%AC%E4%B8%89%E7%BB%B4%E6%99%BA%E9%89%B4%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:43:48.719 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:48.720 | INFO     | __main__:main:197 - --- 开始处理 206/3228: VICTORY HOLDINGS (HK) LIMITED ---
+2025-12-04 13:43:51.780 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 VICTORY HOLDINGS (HK) LIMITED 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=VICTORY+HOLDINGS+%28HK%29+LIMITED
+2025-12-04 13:43:51.785 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:51.786 | INFO     | __main__:main:197 - --- 开始处理 207/3228: 常州泓泰一号创业投资合伙企业(有限合伙) ---
+2025-12-04 13:43:55.404 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 常州泓泰一号创业投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%B8%B8%E5%B7%9E%E6%B3%93%E6%B3%B0%E4%B8%80%E5%8F%B7%E5%88%9B%E4%B8%9A%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 13:43:55.411 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:43:55.412 | INFO     | __main__:main:197 - --- 开始处理 208/3228: 珠海奥比中芯股权投资合伙企业(有限合伙) ---
+2025-12-04 13:50:18.971 | INFO     | __main__:main:197 - --- 开始处理 176/3228: 湖北天源环保集团有限公司 ---
+2025-12-04 13:50:20.514 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 湖北天源环保集团有限公司 时发生网络错误: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /nsearch?key=%E6%B9%96%E5%8C%97%E5%A4%A9%E6%BA%90%E7%8E%AF%E4%BF%9D%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+2025-12-04 13:50:20.518 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:50:20.518 | INFO     | __main__:main:197 - --- 开始处理 177/3228: KLProTech H.K. Limited ---
+2025-12-04 13:50:22.342 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 KLProTech H.K. Limited 时发生网络错误: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /nsearch?key=KLProTech+H.K.+Limited (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+2025-12-04 13:50:22.347 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:50:22.347 | INFO     | __main__:main:197 - --- 开始处理 178/3228: 共青城明伦投资合伙企业(有限合伙) ---
+2025-12-04 13:50:23.717 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 共青城明伦投资合伙企业(有限合伙) 时发生网络错误: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /nsearch?key=%E5%85%B1%E9%9D%92%E5%9F%8E%E6%98%8E%E4%BC%A6%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+2025-12-04 13:50:23.719 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:50:23.719 | INFO     | __main__:main:197 - --- 开始处理 179/3228: 共青城峰伦投资合伙企业(有限合伙) ---
+2025-12-04 13:50:26.530 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 共青城峰伦投资合伙企业(有限合伙) 时发生网络错误: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /nsearch?key=%E5%85%B1%E9%9D%92%E5%9F%8E%E5%B3%B0%E4%BC%A6%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+2025-12-04 13:50:26.533 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:50:26.533 | INFO     | __main__:main:197 - --- 开始处理 180/3228: 共青城伟伦投资合伙企业(有限合伙) ---
+2025-12-04 13:53:08.158 | INFO     | __main__:main:197 - --- 开始处理 176/3228: 湖北天源环保集团有限公司 ---
+2025-12-04 13:53:09.544 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 湖北天源环保集团有限公司 时发生网络错误: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /nsearch?key=%E6%B9%96%E5%8C%97%E5%A4%A9%E6%BA%90%E7%8E%AF%E4%BF%9D%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+2025-12-04 13:53:09.551 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:53:09.552 | INFO     | __main__:main:197 - --- 开始处理 177/3228: KLProTech H.K. Limited ---
+2025-12-04 13:53:11.662 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 KLProTech H.K. Limited 时发生网络错误: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /nsearch?key=KLProTech+H.K.+Limited (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+2025-12-04 13:53:11.665 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:53:11.666 | INFO     | __main__:main:197 - --- 开始处理 178/3228: 共青城明伦投资合伙企业(有限合伙) ---
+2025-12-04 13:53:14.613 | ERROR    | __main__:query_legal_person_with_path:149 - 请求 共青城明伦投资合伙企业(有限合伙) 时发生网络错误: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /nsearch?key=%E5%85%B1%E9%9D%92%E5%9F%8E%E6%98%8E%E4%BC%A6%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+2025-12-04 13:53:14.616 | INFO     | __main__:append_results_to_csv:85 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:53:14.616 | INFO     | __main__:main:197 - --- 开始处理 179/3228: 共青城峰伦投资合伙企业(有限合伙) ---
+2025-12-04 13:54:46.144 | INFO     | __main__:main:196 - --- 开始处理 176/3228: 湖北天源环保集团有限公司 ---
+2025-12-04 13:54:47.271 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 湖北天源环保集团有限公司 时发生网络错误: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /nsearch?key=%E6%B9%96%E5%8C%97%E5%A4%A9%E6%BA%90%E7%8E%AF%E4%BF%9D%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+2025-12-04 13:54:47.278 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:54:47.279 | INFO     | __main__:main:196 - --- 开始处理 177/3228: KLProTech H.K. Limited ---
+2025-12-04 13:54:50.217 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 KLProTech H.K. Limited 时发生网络错误: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /nsearch?key=KLProTech+H.K.+Limited (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+2025-12-04 13:54:50.220 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:54:50.220 | INFO     | __main__:main:196 - --- 开始处理 178/3228: 共青城明伦投资合伙企业(有限合伙) ---
+2025-12-04 13:54:51.486 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 共青城明伦投资合伙企业(有限合伙) 时发生网络错误: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /nsearch?key=%E5%85%B1%E9%9D%92%E5%9F%8E%E6%98%8E%E4%BC%A6%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+2025-12-04 13:54:51.487 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:54:51.488 | INFO     | __main__:main:196 - --- 开始处理 179/3228: 共青城峰伦投资合伙企业(有限合伙) ---
+2025-12-04 13:54:53.228 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 共青城峰伦投资合伙企业(有限合伙) 时发生网络错误: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /nsearch?key=%E5%85%B1%E9%9D%92%E5%9F%8E%E5%B3%B0%E4%BC%A6%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+2025-12-04 13:54:53.229 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:54:53.230 | INFO     | __main__:main:196 - --- 开始处理 180/3228: 共青城伟伦投资合伙企业(有限合伙) ---
+2025-12-04 13:55:48.745 | INFO     | __main__:main:196 - --- 开始处理 176/3228: 湖北天源环保集团有限公司 ---
+2025-12-04 13:55:52.028 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：黄开明
+2025-12-04 13:55:52.031 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:55:52.031 | INFO     | __main__:main:196 - --- 开始处理 177/3228: KLProTech H.K. Limited ---
+2025-12-04 13:55:54.034 | ERROR    | __main__:query_legal_person_with_path:124 - 反爬机制触发！查询 KLProTech H.K. Limited 失败。
+2025-12-04 13:55:54.036 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:55:54.036 | INFO     | __main__:main:196 - --- 开始处理 178/3228: 共青城明伦投资合伙企业(有限合伙) ---
+2025-12-04 13:55:57.778 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：吴伟雄
+2025-12-04 13:55:57.779 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:55:57.780 | INFO     | __main__:main:196 - --- 开始处理 179/3228: 共青城峰伦投资合伙企业(有限合伙) ---
+2025-12-04 13:56:00.710 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：杨廉峰
+2025-12-04 13:56:00.712 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:00.712 | INFO     | __main__:main:196 - --- 开始处理 180/3228: 共青城伟伦投资合伙企业(有限合伙) ---
+2025-12-04 13:56:03.759 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：刘文超
+2025-12-04 13:56:03.760 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:03.760 | INFO     | __main__:main:196 - --- 开始处理 181/3228: 共青城经伦投资合伙企业(有限合伙) ---
+2025-12-04 13:56:07.177 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：李义辉
+2025-12-04 13:56:07.178 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:07.178 | INFO     | __main__:main:196 - --- 开始处理 182/3228: 共青城毅伦投资合伙企业(有限合伙) ---
+2025-12-04 13:56:09.605 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：潘著
+2025-12-04 13:56:09.606 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:09.606 | INFO     | __main__:main:196 - --- 开始处理 183/3228: 共青城智伦投资合伙企业(有限合伙) ---
+2025-12-04 13:56:11.724 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：梅晓东
+2025-12-04 13:56:11.725 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:11.725 | INFO     | __main__:main:196 - --- 开始处理 184/3228: 井冈山兴伦投资合伙企业(有限合伙) ---
+2025-12-04 13:56:15.345 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：郑芳宏
+2025-12-04 13:56:15.346 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:15.346 | INFO     | __main__:main:196 - --- 开始处理 185/3228: 新和成控股集团有限公司 ---
+2025-12-04 13:56:18.426 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：胡柏藩
+2025-12-04 13:56:18.427 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:18.427 | INFO     | __main__:main:196 - --- 开始处理 186/3228: 新昌勤进投资有限公司 ---
+2025-12-04 13:56:21.079 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：胡柏藩
+2025-12-04 13:56:21.080 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:21.080 | INFO     | __main__:main:196 - --- 开始处理 187/3228: 中国航空工业集团有限公司 ---
+2025-12-04 13:56:24.494 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：程福波
+2025-12-04 13:56:24.495 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:24.495 | INFO     | __main__:main:196 - --- 开始处理 188/3228: 中国航空工业集团公司成都飞机设计研究所 ---
+2025-12-04 13:56:26.638 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：何亮
+2025-12-04 13:56:26.639 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:26.639 | INFO     | __main__:main:196 - --- 开始处理 189/3228: 成都飞机工业(集团)有限责任公司 ---
+2025-12-04 13:56:29.826 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：隋少春
+2025-12-04 13:56:29.827 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:29.827 | INFO     | __main__:main:196 - --- 开始处理 190/3228: 中航技进出口有限责任公司 ---
+2025-12-04 13:56:33.685 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：刘宇
+2025-12-04 13:56:33.686 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:33.686 | INFO     | __main__:main:196 - --- 开始处理 191/3228: 成都颐同人企业管理合伙企业(有限合伙) ---
+2025-12-04 13:56:35.514 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：李屹东
+2025-12-04 13:56:35.515 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:35.515 | INFO     | __main__:main:196 - --- 开始处理 192/3228: 成都泰萃企业管理合伙企业(有限合伙) ---
+2025-12-04 13:56:38.379 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：丁健
+2025-12-04 13:56:38.380 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:38.380 | INFO     | __main__:main:196 - --- 开始处理 193/3228: 中航融富基金管理有限公司-北京中航一期航空工业产业投资基金(有限合伙) ---
+2025-12-04 13:56:44.286 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：张晓军
+2025-12-04 13:56:44.287 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:44.288 | INFO     | __main__:main:196 - --- 开始处理 194/3228: 航证科创投资有限公司 ---
+2025-12-04 13:56:47.335 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：董忠云
+2025-12-04 13:56:47.336 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:47.336 | INFO     | __main__:main:196 - --- 开始处理 195/3228: 上海电缆研究所有限公司 ---
+2025-12-04 13:56:51.078 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：江斌
+2025-12-04 13:56:51.079 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:51.079 | INFO     | __main__:main:196 - --- 开始处理 196/3228: 申能(集团)有限公司 ---
+2025-12-04 13:56:54.118 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：黄迪南
+2025-12-04 13:56:54.119 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:54.119 | INFO     | __main__:main:196 - --- 开始处理 197/3228: 广德广和管理投资合伙企业(有限合伙) ---
+2025-12-04 13:56:57.350 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：徐杨顺
+2025-12-04 13:56:57.351 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:57.351 | INFO     | __main__:main:196 - --- 开始处理 198/3228: 佛山市顺德区维而登管理咨询合伙企业(有限合伙) ---
+2025-12-04 13:56:59.635 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：何泳欣
+2025-12-04 13:56:59.636 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:56:59.636 | INFO     | __main__:main:196 - --- 开始处理 199/3228: 淮安豪信液压有限公司 ---
+2025-12-04 13:57:03.041 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：马金星
+2025-12-04 13:57:03.042 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:03.043 | INFO     | __main__:main:196 - --- 开始处理 200/3228: 淮安众博信息咨询服务有限公司 ---
+2025-12-04 13:57:06.423 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：董兰波
+2025-12-04 13:57:06.425 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:06.425 | INFO     | __main__:main:196 - --- 开始处理 201/3228: 宁波思辉创业投资合伙企业(有限合伙) ---
+2025-12-04 13:57:09.803 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：盛晓兰
+2025-12-04 13:57:09.804 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:09.804 | INFO     | __main__:main:196 - --- 开始处理 202/3228: 浙江财通资本投资有限公司-金华市金开产业引领投资合伙企业(有限合伙) ---
+2025-12-04 13:57:12.861 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：黄洪岳
+2025-12-04 13:57:12.862 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:12.862 | INFO     | __main__:main:196 - --- 开始处理 203/3228: 财通创新投资有限公司 ---
+2025-12-04 13:57:16.685 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：张昊
+2025-12-04 13:57:16.687 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:16.687 | INFO     | __main__:main:196 - --- 开始处理 204/3228: 北京维恒管理咨询中心(有限合伙) ---
+2025-12-04 13:57:19.984 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：金震
+2025-12-04 13:57:19.986 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:19.986 | INFO     | __main__:main:196 - --- 开始处理 205/3228: 北京三维智鉴管理咨询中心(有限合伙) ---
+2025-12-04 13:57:22.074 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：金震
+2025-12-04 13:57:22.075 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:22.075 | INFO     | __main__:main:196 - --- 开始处理 206/3228: VICTORY HOLDINGS (HK) LIMITED ---
+2025-12-04 13:57:24.000 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：祁建新
+2025-12-04 13:57:24.002 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:24.002 | INFO     | __main__:main:196 - --- 开始处理 207/3228: 常州泓泰一号创业投资合伙企业(有限合伙) ---
+2025-12-04 13:57:26.473 | INFO     | __main__:query_legal_person_with_path:142 - [>>>] 找到法人（仍是公司）：常州泓泰私募基金管理有限公司 (长度: 14)
+2025-12-04 13:57:28.633 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>>>>] 成功找到人名法人：张建华
+2025-12-04 13:57:28.634 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:28.634 | INFO     | __main__:main:196 - --- 开始处理 208/3228: 珠海奥比中芯股权投资合伙企业(有限合伙) ---
+2025-12-04 13:57:32.881 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：黄源浩
+2025-12-04 13:57:32.882 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:32.882 | INFO     | __main__:main:196 - --- 开始处理 209/3228: 珠海奥比中瑞股权投资合伙企业(有限合伙) ---
+2025-12-04 13:57:34.843 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：黄源浩
+2025-12-04 13:57:34.845 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:34.845 | INFO     | __main__:main:196 - --- 开始处理 210/3228: 珠海奥比中鑫股权投资合伙企业(有限合伙) ---
+2025-12-04 13:57:38.067 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：黄源浩
+2025-12-04 13:57:38.068 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:38.068 | INFO     | __main__:main:196 - --- 开始处理 211/3228: 珠海奥比中欣股权投资合伙企业(有限合伙) ---
+2025-12-04 13:57:41.167 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：黄源浩
+2025-12-04 13:57:41.168 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:41.168 | INFO     | __main__:main:196 - --- 开始处理 212/3228: 珠海奥比中诚股权投资合伙企业(有限合伙) ---
+2025-12-04 13:57:43.724 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：黄源浩
+2025-12-04 13:57:43.725 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:43.726 | INFO     | __main__:main:196 - --- 开始处理 213/3228: 珠海奥比中泰股权投资合伙企业(有限合伙) ---
+2025-12-04 13:57:45.956 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：黄源浩
+2025-12-04 13:57:45.958 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:45.958 | INFO     | __main__:main:196 - --- 开始处理 214/3228: 太湖宏辉医疗管理合伙企业(有限合伙) ---
+2025-12-04 13:57:49.643 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：黄凡
+2025-12-04 13:57:49.644 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:49.644 | INFO     | __main__:main:196 - --- 开始处理 215/3228: Pan-Scientific Holdings Co., Ltd. ---
+2025-12-04 13:57:52.122 | ERROR    | __main__:query_legal_person_with_path:124 - 反爬机制触发！查询 Pan-Scientific Holdings Co., Ltd. 失败。
+2025-12-04 13:57:52.123 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:57:52.123 | INFO     | __main__:main:196 - --- 开始处理 216/3228: 泰州东虹企业管理中心(有限合伙) ---
+2025-12-04 13:57:56.619 | INFO     | __main__:query_legal_person_with_path:142 - [>>>] 找到法人（仍是公司）：PAN KE (长度: 6)
+2025-12-04 13:57:59.475 | INFO     | __main__:query_legal_person_with_path:142 - [>>>>>>] 找到法人（仍是公司）：PAN KE (长度: 6)
+2025-12-04 13:58:02.060 | INFO     | __main__:query_legal_person_with_path:142 - [>>>>>>>>>] 找到法人（仍是公司）：PAN KE (长度: 6)
+2025-12-04 13:58:02.060 | WARNING  | __main__:query_legal_person_with_path:103 - 超过最大路径深度 3，停止查询。
+2025-12-04 13:58:02.062 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:02.062 | INFO     | __main__:main:196 - --- 开始处理 217/3228: 泰州亚虹企业管理中心(有限合伙) ---
+2025-12-04 13:58:05.897 | INFO     | __main__:query_legal_person_with_path:142 - [>>>] 找到法人（仍是公司）：PAN KE (长度: 6)
+2025-12-04 13:58:07.856 | INFO     | __main__:query_legal_person_with_path:142 - [>>>>>>] 找到法人（仍是公司）：PAN KE (长度: 6)
+2025-12-04 13:58:11.630 | INFO     | __main__:query_legal_person_with_path:142 - [>>>>>>>>>] 找到法人（仍是公司）：PAN KE (长度: 6)
+2025-12-04 13:58:11.630 | WARNING  | __main__:query_legal_person_with_path:103 - 超过最大路径深度 3，停止查询。
+2025-12-04 13:58:11.632 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:11.632 | INFO     | __main__:main:196 - --- 开始处理 218/3228: 苏州国芯联创投资管理有限公司 ---
+2025-12-04 13:58:14.038 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：郑茳
+2025-12-04 13:58:14.039 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:14.039 | INFO     | __main__:main:196 - --- 开始处理 219/3228: 宁波梅山保税港区旭盛科创投资管理合伙企业(有限合伙) ---
+2025-12-04 13:58:16.363 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：郑茳
+2025-12-04 13:58:16.364 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:16.364 | INFO     | __main__:main:196 - --- 开始处理 220/3228: 宁波矽晟投资管理合伙企业(有限合伙) ---
+2025-12-04 13:58:18.436 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：郑茳
+2025-12-04 13:58:18.438 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:18.438 | INFO     | __main__:main:196 - --- 开始处理 221/3228: 宁波矽丰投资管理合伙企业(有限合伙) ---
+2025-12-04 13:58:20.655 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：郑茳
+2025-12-04 13:58:20.656 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:20.657 | INFO     | __main__:main:196 - --- 开始处理 222/3228: 宁波梅山保税港区矽芯投资管理合伙企业(有限合伙) ---
+2025-12-04 13:58:23.762 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：郑茳
+2025-12-04 13:58:23.763 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:23.763 | INFO     | __main__:main:196 - --- 开始处理 223/3228: 成都普瑞世纪投资有限责任公司 ---
+2025-12-04 13:58:27.017 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：徐旭阳
+2025-12-04 13:58:27.018 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:27.018 | INFO     | __main__:main:196 - --- 开始处理 224/3228: 上海浦视玖昊企业管理合伙企业(有限合伙) ---
+2025-12-04 13:58:29.424 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：徐旭阳
+2025-12-04 13:58:29.425 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:29.426 | INFO     | __main__:main:196 - --- 开始处理 225/3228: 上海浦视捌昊企业管理合伙企业(有限合伙) ---
+2025-12-04 13:58:32.790 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：徐旭阳
+2025-12-04 13:58:32.792 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:32.792 | INFO     | __main__:main:196 - --- 开始处理 226/3228: 上海浦视伍昊企业管理合伙企业(有限合伙) ---
+2025-12-04 13:58:36.479 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：徐旭阳
+2025-12-04 13:58:36.481 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:36.481 | INFO     | __main__:main:196 - --- 开始处理 227/3228: 上海浦视叁昊企业管理合伙企业(有限合伙) ---
+2025-12-04 13:58:39.656 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：徐旭阳
+2025-12-04 13:58:39.657 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:39.657 | INFO     | __main__:main:196 - --- 开始处理 228/3228: 建水县铨钧企业管理中心(有限合伙) ---
+2025-12-04 13:58:42.245 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：张亚
+2025-12-04 13:58:42.246 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:42.247 | INFO     | __main__:main:196 - --- 开始处理 229/3228: 新余环亚诺金企业管理有限公司 ---
+2025-12-04 13:58:45.472 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：张亚
+2025-12-04 13:58:45.473 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:45.473 | INFO     | __main__:main:196 - --- 开始处理 230/3228: 民生证券投资有限公司 ---
+2025-12-04 13:58:48.555 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：任凯锋
+2025-12-04 13:58:48.556 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:48.556 | INFO     | __main__:main:196 - --- 开始处理 231/3228: 中保投资有限责任公司-中国保险投资基金(有限合伙) ---
+2025-12-04 13:58:50.989 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：江桂兰
+2025-12-04 13:58:50.991 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:50.991 | INFO     | __main__:main:196 - --- 开始处理 232/3228: 深圳市同方汇鑫创业投资有限公司 ---
+2025-12-04 13:58:53.634 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：王灿锋
+2025-12-04 13:58:53.635 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:53.635 | INFO     | __main__:main:196 - --- 开始处理 233/3228: 南京乔融创业投资合伙企业(有限合伙) ---
+2025-12-04 13:58:57.003 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：蒋福春
+2025-12-04 13:58:57.004 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:58:57.005 | INFO     | __main__:main:196 - --- 开始处理 234/3228: 安信证券资管-兴业银行-安信资管乔锋智能高管参与创业板战略配售集合资产管理计划 ---
+2025-12-04 13:59:00.171 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：熊碧华
+2025-12-04 13:59:00.172 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:00.172 | INFO     | __main__:main:196 - --- 开始处理 235/3228: 南京乔泽创业投资合伙企业(有限合伙) ---
+2025-12-04 13:59:02.454 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：蒋林华
+2025-12-04 13:59:02.455 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:02.456 | INFO     | __main__:main:196 - --- 开始处理 236/3228: 苏州华扬同创投资中心(有限合伙) ---
+2025-12-04 13:59:04.323 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：巫少峰
+2025-12-04 13:59:04.324 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:04.324 | INFO     | __main__:main:196 - --- 开始处理 237/3228: 深圳群智方立科技合伙企业(有限合伙) ---
+2025-12-04 13:59:06.157 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：邱鹏
+2025-12-04 13:59:06.158 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:06.159 | INFO     | __main__:main:196 - --- 开始处理 238/3228: 兴证投资管理有限公司 ---
+2025-12-04 13:59:09.758 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：蔡晓斌
+2025-12-04 13:59:09.759 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:09.759 | INFO     | __main__:main:196 - --- 开始处理 239/3228: 张家港金农联实业有限公司 ---
+2025-12-04 13:59:12.362 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：赵建军
+2025-12-04 13:59:12.363 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:12.363 | INFO     | __main__:main:196 - --- 开始处理 240/3228: 苏州敦行价值二号创业投资合伙企业(有限合伙) ---
+2025-12-04 13:59:15.694 | INFO     | __main__:query_legal_person_with_path:142 - [>>>] 找到法人（仍是公司）：苏州敦行投资管理有限公司 (长度: 12)
+2025-12-04 13:59:19.179 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>>>>] 成功找到人名法人：马阳光
+2025-12-04 13:59:19.180 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:19.180 | INFO     | __main__:main:196 - --- 开始处理 241/3228: 苏州敦行价值三号创业投资合伙企业(有限合伙) ---
+2025-12-04 13:59:21.871 | INFO     | __main__:query_legal_person_with_path:142 - [>>>] 找到法人（仍是公司）：苏州敦行投资管理有限公司 (长度: 12)
+2025-12-04 13:59:24.346 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>>>>] 成功找到人名法人：马阳光
+2025-12-04 13:59:24.348 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:24.348 | INFO     | __main__:main:196 - --- 开始处理 242/3228: 苏州敦行价值创业投资合伙企业(有限合伙) ---
+2025-12-04 13:59:27.162 | INFO     | __main__:query_legal_person_with_path:142 - [>>>] 找到法人（仍是公司）：苏州敦行投资管理有限公司 (长度: 12)
+2025-12-04 13:59:30.889 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>>>>] 成功找到人名法人：马阳光
+2025-12-04 13:59:30.890 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:30.890 | INFO     | __main__:main:196 - --- 开始处理 243/3228: 张家港东金实业有限公司 ---
+2025-12-04 13:59:33.464 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：赵建军
+2025-12-04 13:59:33.465 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:33.466 | INFO     | __main__:main:196 - --- 开始处理 244/3228: 苏州敦行聚才创业投资合伙企业(有限合伙) ---
+2025-12-04 13:59:37.028 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：马阳光
+2025-12-04 13:59:37.029 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:37.029 | INFO     | __main__:main:196 - --- 开始处理 245/3228: 广东星辉控股有限公司 ---
+2025-12-04 13:59:40.602 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：陈雁升
+2025-12-04 13:59:40.603 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:40.603 | INFO     | __main__:main:196 - --- 开始处理 246/3228: 星辉合成材料(香港)有限公司 ---
+2025-12-04 13:59:43.085 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：陈粤平
+2025-12-04 13:59:43.086 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:43.086 | INFO     | __main__:main:196 - --- 开始处理 247/3228: 新疆生产建设兵团建设工程(集团)有限责任公司 ---
+2025-12-04 13:59:46.968 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：陈少敏
+2025-12-04 13:59:46.969 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:46.969 | INFO     | __main__:main:196 - --- 开始处理 248/3228: 浙江天成科投有限公司 ---
+2025-12-04 13:59:49.008 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：许筱荷
+2025-12-04 13:59:49.009 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:49.009 | INFO     | __main__:main:196 - --- 开始处理 249/3228: 杭州臻品致信投资合伙企业(有限合伙) ---
+2025-12-04 13:59:51.594 | INFO     | __main__:query_legal_person_with_path:142 - [>>>] 找到法人（仍是公司）：杭州臻品资产管理有限公司 (长度: 12)
+2025-12-04 13:59:54.348 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>>>>] 成功找到人名法人：沈淋涛
+2025-12-04 13:59:54.350 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:54.350 | INFO     | __main__:main:196 - --- 开始处理 250/3228: 杭州宝钰投资管理合伙企业(有限合伙) ---
+2025-12-04 13:59:58.135 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：马驹
+2025-12-04 13:59:58.136 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 13:59:58.137 | INFO     | __main__:main:196 - --- 开始处理 251/3228: 中信建投投资有限公司 ---
+2025-12-04 14:00:00.659 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：李旭东
+2025-12-04 14:00:00.660 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:00.660 | INFO     | __main__:main:196 - --- 开始处理 252/3228: 深圳市惟实聚成投资合伙企业(有限合伙) ---
+2025-12-04 14:00:03.420 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：薛兴韩
+2025-12-04 14:00:03.421 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:03.421 | INFO     | __main__:main:196 - --- 开始处理 253/3228: 招商证券投资有限公司 ---
+2025-12-04 14:00:06.782 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：凌江红
+2025-12-04 14:00:06.784 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:06.784 | INFO     | __main__:main:196 - --- 开始处理 254/3228: 中信证券投资有限公司 ---
+2025-12-04 14:00:10.767 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：方浩
+2025-12-04 14:00:10.768 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:10.768 | INFO     | __main__:main:196 - --- 开始处理 255/3228: 中信建投投资有限公司 ---
+2025-12-04 14:00:13.213 | SUCCESS  | __main__:query_legal_person_with_path:139 - [>>>] 成功找到人名法人：李旭东
+2025-12-04 14:00:13.214 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:13.214 | INFO     | __main__:main:196 - --- 开始处理 256/3228: 嘉善汇诚股权投资合伙企业(有限合伙) ---
+2025-12-04 14:00:16.294 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 嘉善汇诚股权投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%98%89%E5%96%84%E6%B1%87%E8%AF%9A%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:00:16.299 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:16.300 | INFO     | __main__:main:196 - --- 开始处理 257/3228: 嘉善和诚股权投资合伙企业(有限合伙) ---
+2025-12-04 14:00:18.546 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 嘉善和诚股权投资合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E5%98%89%E5%96%84%E5%92%8C%E8%AF%9A%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:00:18.553 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:18.554 | INFO     | __main__:main:196 - --- 开始处理 258/3228: 济南产发科技集团有限公司 ---
+2025-12-04 14:00:20.877 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 济南产发科技集团有限公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%B5%8E%E5%8D%97%E4%BA%A7%E5%8F%91%E7%A7%91%E6%8A%80%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:00:20.881 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:20.882 | INFO     | __main__:main:196 - --- 开始处理 259/3228: 济南市能源投资有限责任公司 ---
+2025-12-04 14:00:24.306 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 济南市能源投资有限责任公司 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E6%B5%8E%E5%8D%97%E5%B8%82%E8%83%BD%E6%BA%90%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8
+2025-12-04 14:00:24.311 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:24.312 | INFO     | __main__:main:196 - --- 开始处理 260/3228: 佛山市迅禾企业咨询管理合伙企业(有限合伙) ---
+2025-12-04 14:00:27.420 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 佛山市迅禾企业咨询管理合伙企业(有限合伙) 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E4%BD%9B%E5%B1%B1%E5%B8%82%E8%BF%85%E7%A6%BE%E4%BC%81%E4%B8%9A%E5%92%A8%E8%AF%A2%E7%AE%A1%E7%90%86%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:00:27.426 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:27.427 | INFO     | __main__:main:196 - --- 开始处理 261/3228: 长江证券资管-农业银行-长江资管星耀科力汽车员工参与创业板战略配售集合资产管理计划 ---
+2025-12-04 14:00:31.215 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 长江证券资管-农业银行-长江资管星耀科力汽车员工参与创业板战略配售集合资产管理计划 时发生网络错误: 429 Client Error: Too Many Requests for url: https://www.tianyancha.com/nsearch?key=%E9%95%BF%E6%B1%9F%E8%AF%81%E5%88%B8%E8%B5%84%E7%AE%A1-%E5%86%9C%E4%B8%9A%E9%93%B6%E8%A1%8C-%E9%95%BF%E6%B1%9F%E8%B5%84%E7%AE%A1%E6%98%9F%E8%80%80%E7%A7%91%E5%8A%9B%E6%B1%BD%E8%BD%A6%E5%91%98%E5%B7%A5%E5%8F%82%E4%B8%8E%E5%88%9B%E4%B8%9A%E6%9D%BF%E6%88%98%E7%95%A5%E9%85%8D%E5%94%AE%E9%9B%86%E5%90%88%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92
+2025-12-04 14:00:31.222 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:31.223 | INFO     | __main__:main:196 - --- 开始处理 262/3228: 全国社保基金一零一组合 ---
+2025-12-04 14:00:33.647 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 全国社保基金一零一组合 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%85%A8%E5%9B%BD%E7%A4%BE%E4%BF%9D%E5%9F%BA%E9%87%91%E4%B8%80%E9%9B%B6%E4%B8%80%E7%BB%84%E5%90%88
+2025-12-04 14:00:33.652 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:33.652 | INFO     | __main__:main:196 - --- 开始处理 263/3228: 南方工业资产管理有限责任公司 ---
+2025-12-04 14:00:35.289 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 南方工业资产管理有限责任公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%8D%97%E6%96%B9%E5%B7%A5%E4%B8%9A%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8
+2025-12-04 14:00:35.293 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:35.294 | INFO     | __main__:main:196 - --- 开始处理 264/3228: 中保投资有限责任公司-中国保险投资基金(有限合伙) ---
+2025-12-04 14:00:36.774 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 中保投资有限责任公司-中国保险投资基金(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E4%BF%9D%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8-%E4%B8%AD%E5%9B%BD%E4%BF%9D%E9%99%A9%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:00:36.779 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:36.780 | INFO     | __main__:main:196 - --- 开始处理 265/3228: 广州工控产投私募基金管理有限公司-广州广智产业投资基金合伙企业(有限合伙) ---
+2025-12-04 14:00:38.389 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 广州工控产投私募基金管理有限公司-广州广智产业投资基金合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%B9%BF%E5%B7%9E%E5%B7%A5%E6%8E%A7%E4%BA%A7%E6%8A%95%E7%A7%81%E5%8B%9F%E5%9F%BA%E9%87%91%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E5%B9%BF%E5%B7%9E%E5%B9%BF%E6%99%BA%E4%BA%A7%E4%B8%9A%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:00:38.395 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:38.396 | INFO     | __main__:main:196 - --- 开始处理 266/3228: 中电国基南方集团有限公司 ---
+2025-12-04 14:00:39.933 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 中电国基南方集团有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E7%94%B5%E5%9B%BD%E5%9F%BA%E5%8D%97%E6%96%B9%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:00:39.939 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:39.939 | INFO     | __main__:main:196 - --- 开始处理 267/3228: 中国电子科技集团公司第五十五研究所 ---
+2025-12-04 14:00:42.484 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 中国电子科技集团公司第五十五研究所 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E9%9B%86%E5%9B%A2%E5%85%AC%E5%8F%B8%E7%AC%AC%E4%BA%94%E5%8D%81%E4%BA%94%E7%A0%94%E7%A9%B6%E6%89%80
+2025-12-04 14:00:42.490 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:42.490 | INFO     | __main__:main:196 - --- 开始处理 268/3228: 中电科投资控股有限公司 ---
+2025-12-04 14:00:45.384 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 中电科投资控股有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E7%94%B5%E7%A7%91%E6%8A%95%E8%B5%84%E6%8E%A7%E8%82%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:00:45.389 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:45.389 | INFO     | __main__:main:196 - --- 开始处理 269/3228: 中信证券投资有限公司 ---
+2025-12-04 14:00:46.947 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 中信证券投资有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E4%BF%A1%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:00:46.953 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:46.953 | INFO     | __main__:main:196 - --- 开始处理 270/3228: 上海益喜企业管理中心(有限合伙) ---
+2025-12-04 14:00:49.102 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海益喜企业管理中心(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E7%9B%8A%E5%96%9C%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:00:49.107 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:49.108 | INFO     | __main__:main:196 - --- 开始处理 271/3228: 上海益穆企业管理中心(有限合伙) ---
+2025-12-04 14:00:50.744 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海益穆企业管理中心(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E7%9B%8A%E7%A9%86%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:00:50.749 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:50.750 | INFO     | __main__:main:196 - --- 开始处理 272/3228: 杭州元一投资咨询合伙企业(有限合伙) ---
+2025-12-04 14:00:52.142 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 杭州元一投资咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%9D%AD%E5%B7%9E%E5%85%83%E4%B8%80%E6%8A%95%E8%B5%84%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:00:52.146 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:52.147 | INFO     | __main__:main:196 - --- 开始处理 273/3228: 杭州楚一投资咨询合伙企业(有限合伙) ---
+2025-12-04 14:00:54.777 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 杭州楚一投资咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%9D%AD%E5%B7%9E%E6%A5%9A%E4%B8%80%E6%8A%95%E8%B5%84%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:00:54.782 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:54.783 | INFO     | __main__:main:196 - --- 开始处理 274/3228: 江苏智拓投资有限公司 ---
+2025-12-04 14:00:57.853 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 江苏智拓投资有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B1%9F%E8%8B%8F%E6%99%BA%E6%8B%93%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:00:57.858 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:00:57.859 | INFO     | __main__:main:196 - --- 开始处理 275/3228: 上海磐铸咨询管理合伙企业(有限合伙) ---
+2025-12-04 14:01:00.913 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海磐铸咨询管理合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E7%A3%90%E9%93%B8%E5%92%A8%E8%AF%A2%E7%AE%A1%E7%90%86%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:00.919 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:00.919 | INFO     | __main__:main:196 - --- 开始处理 276/3228: 上海沁锡管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:01:02.137 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海沁锡管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E6%B2%81%E9%94%A1%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:02.142 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:02.142 | INFO     | __main__:main:196 - --- 开始处理 277/3228: 上海锡厦管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:01:05.008 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海锡厦管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E9%94%A1%E5%8E%A6%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:05.014 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:05.015 | INFO     | __main__:main:196 - --- 开始处理 278/3228: 上海磐晋管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:01:07.799 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海磐晋管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E7%A3%90%E6%99%8B%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:07.803 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:07.804 | INFO     | __main__:main:196 - --- 开始处理 279/3228: 上海铸磐管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:01:09.175 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海铸磐管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E9%93%B8%E7%A3%90%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:09.180 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:09.181 | INFO     | __main__:main:196 - --- 开始处理 280/3228: 上海昭质管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:01:11.427 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海昭质管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E6%98%AD%E8%B4%A8%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:11.433 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:11.433 | INFO     | __main__:main:196 - --- 开始处理 281/3228: Daqo New Energy Corp. ---
+2025-12-04 14:01:13.744 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 Daqo New Energy Corp. 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=Daqo+New+Energy+Corp.
+2025-12-04 14:01:13.749 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:13.750 | INFO     | __main__:main:196 - --- 开始处理 282/3228: 重庆大全新能源有限公司 ---
+2025-12-04 14:01:15.932 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 重庆大全新能源有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E9%87%8D%E5%BA%86%E5%A4%A7%E5%85%A8%E6%96%B0%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:01:15.938 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:15.939 | INFO     | __main__:main:196 - --- 开始处理 283/3228: 国泰君安证裕投资有限公司 ---
+2025-12-04 14:01:18.188 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 国泰君安证裕投资有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%9B%BD%E6%B3%B0%E5%90%9B%E5%AE%89%E8%AF%81%E8%A3%95%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:01:18.193 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:18.194 | INFO     | __main__:main:196 - --- 开始处理 284/3228: 上海东方证券创新投资有限公司 ---
+2025-12-04 14:01:19.646 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海东方证券创新投资有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E4%B8%9C%E6%96%B9%E8%AF%81%E5%88%B8%E5%88%9B%E6%96%B0%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:01:19.652 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:19.652 | INFO     | __main__:main:196 - --- 开始处理 285/3228: 武汉康汇投资管理中心(有限合伙) ---
+2025-12-04 14:01:21.051 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 武汉康汇投资管理中心(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%AD%A6%E6%B1%89%E5%BA%B7%E6%B1%87%E6%8A%95%E8%B5%84%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:21.056 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:21.057 | INFO     | __main__:main:196 - --- 开始处理 286/3228: 杭州晨芯投资合伙企业(有限合伙) ---
+2025-12-04 14:01:23.204 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 杭州晨芯投资合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%9D%AD%E5%B7%9E%E6%99%A8%E8%8A%AF%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:23.209 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:23.209 | INFO     | __main__:main:196 - --- 开始处理 287/3228: 杭州臻雷投资合伙企业(有限合伙) ---
+2025-12-04 14:01:25.557 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 杭州臻雷投资合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%9D%AD%E5%B7%9E%E8%87%BB%E9%9B%B7%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:25.560 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:25.560 | INFO     | __main__:main:196 - --- 开始处理 288/3228: 杭州睿磊投资合伙企业(有限合伙) ---
+2025-12-04 14:01:26.995 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 杭州睿磊投资合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%9D%AD%E5%B7%9E%E7%9D%BF%E7%A3%8A%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:27.000 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:27.000 | INFO     | __main__:main:196 - --- 开始处理 289/3228: 江苏骏成投资管理合伙企业(有限合伙) ---
+2025-12-04 14:01:29.151 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 江苏骏成投资管理合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B1%9F%E8%8B%8F%E9%AA%8F%E6%88%90%E6%8A%95%E8%B5%84%E7%AE%A1%E7%90%86%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:29.155 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:29.156 | INFO     | __main__:main:196 - --- 开始处理 290/3228: 上海万芮创祥网络科技有限公司 ---
+2025-12-04 14:01:31.256 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海万芮创祥网络科技有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E4%B8%87%E8%8A%AE%E5%88%9B%E7%A5%A5%E7%BD%91%E7%BB%9C%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:01:31.260 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:31.260 | INFO     | __main__:main:196 - --- 开始处理 291/3228: 东莞市奕东控股有限公司 ---
+2025-12-04 14:01:33.501 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 东莞市奕东控股有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%A5%95%E4%B8%9C%E6%8E%A7%E8%82%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:01:33.506 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:33.507 | INFO     | __main__:main:196 - --- 开始处理 292/3228: 深圳市绿联管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:01:34.971 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 深圳市绿联管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E7%BB%BF%E8%81%94%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:34.975 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:34.975 | INFO     | __main__:main:196 - --- 开始处理 293/3228: 珠海锡恒投资合伙企业(有限合伙) ---
+2025-12-04 14:01:36.278 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 珠海锡恒投资合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E7%8F%A0%E6%B5%B7%E9%94%A1%E6%81%92%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:36.283 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:36.283 | INFO     | __main__:main:196 - --- 开始处理 294/3228: 深圳市绿联和顺管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:01:37.524 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 深圳市绿联和顺管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E7%BB%BF%E8%81%94%E5%92%8C%E9%A1%BA%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:37.527 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:37.528 | INFO     | __main__:main:196 - --- 开始处理 295/3228: 服务贸易创新发展引导基金(有限合伙) ---
+2025-12-04 14:01:40.516 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 服务贸易创新发展引导基金(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%9C%8D%E5%8A%A1%E8%B4%B8%E6%98%93%E5%88%9B%E6%96%B0%E5%8F%91%E5%B1%95%E5%BC%95%E5%AF%BC%E5%9F%BA%E9%87%91%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:40.521 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:40.521 | INFO     | __main__:main:196 - --- 开始处理 296/3228: 华泰绿联科技家园1号创业板员工持股集合资产管理计划 ---
+2025-12-04 14:01:43.220 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 华泰绿联科技家园1号创业板员工持股集合资产管理计划 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%8D%8E%E6%B3%B0%E7%BB%BF%E8%81%94%E7%A7%91%E6%8A%80%E5%AE%B6%E5%9B%AD1%E5%8F%B7%E5%88%9B%E4%B8%9A%E6%9D%BF%E5%91%98%E5%B7%A5%E6%8C%81%E8%82%A1%E9%9B%86%E5%90%88%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92
+2025-12-04 14:01:43.225 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:43.225 | INFO     | __main__:main:196 - --- 开始处理 297/3228: 深圳市和顺四号管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:01:45.518 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 深圳市和顺四号管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%92%8C%E9%A1%BA%E5%9B%9B%E5%8F%B7%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:45.522 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:45.523 | INFO     | __main__:main:196 - --- 开始处理 298/3228: 深圳市和顺三号管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:01:47.164 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 深圳市和顺三号管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%92%8C%E9%A1%BA%E4%B8%89%E5%8F%B7%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:47.168 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:47.168 | INFO     | __main__:main:196 - --- 开始处理 299/3228: 深圳市和顺二号管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:01:49.062 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 深圳市和顺二号管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%92%8C%E9%A1%BA%E4%BA%8C%E5%8F%B7%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:49.067 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:49.067 | INFO     | __main__:main:196 - --- 开始处理 300/3228: 深圳世横投资有限公司 ---
+2025-12-04 14:01:51.988 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 深圳世横投资有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B7%B1%E5%9C%B3%E4%B8%96%E6%A8%AA%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:01:51.992 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:51.993 | INFO     | __main__:main:196 - --- 开始处理 301/3228: 广东远大方略管理咨询有限公司 ---
+2025-12-04 14:01:54.281 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 广东远大方略管理咨询有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%B9%BF%E4%B8%9C%E8%BF%9C%E5%A4%A7%E6%96%B9%E7%95%A5%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:01:54.287 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:54.288 | INFO     | __main__:main:196 - --- 开始处理 302/3228: 厦门坚果核力创业投资合伙企业(有限合伙) ---
+2025-12-04 14:01:56.770 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 厦门坚果核力创业投资合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%8E%A6%E9%97%A8%E5%9D%9A%E6%9E%9C%E6%A0%B8%E5%8A%9B%E5%88%9B%E4%B8%9A%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:01:56.775 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:56.776 | INFO     | __main__:main:196 - --- 开始处理 303/3228: 国家电力投资集团有限公司 ---
+2025-12-04 14:01:59.772 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 国家电力投资集团有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%9B%BD%E5%AE%B6%E7%94%B5%E5%8A%9B%E6%8A%95%E8%B5%84%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:01:59.776 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:01:59.777 | INFO     | __main__:main:196 - --- 开始处理 304/3228: 铜陵有色金属集团股份有限公司 ---
+2025-12-04 14:02:02.568 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 铜陵有色金属集团股份有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E9%93%9C%E9%99%B5%E6%9C%89%E8%89%B2%E9%87%91%E5%B1%9E%E9%9B%86%E5%9B%A2%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:02:02.573 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:02.574 | INFO     | __main__:main:196 - --- 开始处理 305/3228: 景宁晶殷华企业管理合伙企业(有限合伙) ---
+2025-12-04 14:02:05.019 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 景宁晶殷华企业管理合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%99%AF%E5%AE%81%E6%99%B6%E6%AE%B7%E5%8D%8E%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:05.025 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:05.025 | INFO     | __main__:main:196 - --- 开始处理 306/3228: 常熟势龙股权管理企业(有限合伙) ---
+2025-12-04 14:02:07.574 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 常熟势龙股权管理企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%B8%B8%E7%86%9F%E5%8A%BF%E9%BE%99%E8%82%A1%E6%9D%83%E7%AE%A1%E7%90%86%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:07.579 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:07.580 | INFO     | __main__:main:196 - --- 开始处理 307/3228: 中国电子有限公司 ---
+2025-12-04 14:02:09.483 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 中国电子有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%AD%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:02:09.488 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:09.488 | INFO     | __main__:main:196 - --- 开始处理 308/3228: 北京九创汇新资产管理合伙企业(有限合伙) ---
+2025-12-04 14:02:11.241 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 北京九创汇新资产管理合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%8C%97%E4%BA%AC%E4%B9%9D%E5%88%9B%E6%B1%87%E6%96%B0%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:11.246 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:11.247 | INFO     | __main__:main:196 - --- 开始处理 309/3228: 中电金投控股有限公司 ---
+2025-12-04 14:02:12.494 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 中电金投控股有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E7%94%B5%E9%87%91%E6%8A%95%E6%8E%A7%E8%82%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:02:12.499 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:12.500 | INFO     | __main__:main:196 - --- 开始处理 310/3228: 民生证券投资有限公司 ---
+2025-12-04 14:02:13.956 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 民生证券投资有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B0%91%E7%94%9F%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:02:13.961 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:13.962 | INFO     | __main__:main:196 - --- 开始处理 311/3228: 惠州市博添益投资咨询合伙企业(有限合伙) ---
+2025-12-04 14:02:15.673 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 惠州市博添益投资咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%83%A0%E5%B7%9E%E5%B8%82%E5%8D%9A%E6%B7%BB%E7%9B%8A%E6%8A%95%E8%B5%84%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:15.677 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:15.678 | INFO     | __main__:main:196 - --- 开始处理 312/3228: 惠州市惠添益投资咨询合伙企业(有限合伙) ---
+2025-12-04 14:02:16.905 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 惠州市惠添益投资咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%83%A0%E5%B7%9E%E5%B8%82%E6%83%A0%E6%B7%BB%E7%9B%8A%E6%8A%95%E8%B5%84%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:16.910 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:16.911 | INFO     | __main__:main:196 - --- 开始处理 313/3228: 中保投资有限责任公司-中国保险投资基金(有限合伙) ---
+2025-12-04 14:02:19.471 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 中保投资有限责任公司-中国保险投资基金(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%AD%E4%BF%9D%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8-%E4%B8%AD%E5%9B%BD%E4%BF%9D%E9%99%A9%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:19.476 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:19.477 | INFO     | __main__:main:196 - --- 开始处理 314/3228: 上海国盛资本管理有限公司-上海国盛产业赋能私募投资基金合伙企业(有限合伙) ---
+2025-12-04 14:02:21.027 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海国盛资本管理有限公司-上海国盛产业赋能私募投资基金合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E5%9B%BD%E7%9B%9B%E8%B5%84%E6%9C%AC%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E4%B8%8A%E6%B5%B7%E5%9B%BD%E7%9B%9B%E4%BA%A7%E4%B8%9A%E8%B5%8B%E8%83%BD%E7%A7%81%E5%8B%9F%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:21.034 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:21.034 | INFO     | __main__:main:196 - --- 开始处理 315/3228: 南京路泰管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:02:22.306 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 南京路泰管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%8D%97%E4%BA%AC%E8%B7%AF%E6%B3%B0%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:22.312 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:22.312 | INFO     | __main__:main:196 - --- 开始处理 316/3228: 上海华俭食品科技有限公司 ---
+2025-12-04 14:02:24.470 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海华俭食品科技有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E5%8D%8E%E4%BF%AD%E9%A3%9F%E5%93%81%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:02:24.474 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:24.475 | INFO     | __main__:main:196 - --- 开始处理 317/3228: 新疆新能源(集团)有限责任公司 ---
+2025-12-04 14:02:26.281 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 新疆新能源(集团)有限责任公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%96%B0%E7%96%86%E6%96%B0%E8%83%BD%E6%BA%90%28%E9%9B%86%E5%9B%A2%29%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8
+2025-12-04 14:02:26.285 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:26.285 | INFO     | __main__:main:196 - --- 开始处理 318/3228: 井冈山筑力管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:02:29.387 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 井冈山筑力管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%BA%95%E5%86%88%E5%B1%B1%E7%AD%91%E5%8A%9B%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:29.392 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:29.392 | INFO     | __main__:main:196 - --- 开始处理 319/3228: 井冈山和风管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:02:30.724 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 井冈山和风管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%BA%95%E5%86%88%E5%B1%B1%E5%92%8C%E9%A3%8E%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:30.728 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:30.728 | INFO     | __main__:main:196 - --- 开始处理 320/3228: 永春华瑞智测企业管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:02:32.991 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 永春华瑞智测企业管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B0%B8%E6%98%A5%E5%8D%8E%E7%91%9E%E6%99%BA%E6%B5%8B%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:32.994 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:32.995 | INFO     | __main__:main:196 - --- 开始处理 321/3228: 泉州华瑞智创管理咨询合伙企业(有限合伙) ---
+2025-12-04 14:02:35.122 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 泉州华瑞智创管理咨询合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B3%89%E5%B7%9E%E5%8D%8E%E7%91%9E%E6%99%BA%E5%88%9B%E7%AE%A1%E7%90%86%E5%92%A8%E8%AF%A2%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:35.127 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:35.127 | INFO     | __main__:main:196 - --- 开始处理 322/3228: Favored Tech Corporation Limited ---
+2025-12-04 14:02:37.787 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 Favored Tech Corporation Limited 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=Favored+Tech+Corporation+Limited
+2025-12-04 14:02:37.792 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:37.793 | INFO     | __main__:main:196 - --- 开始处理 323/3228: 深圳市吉富启瑞投资合伙企业(有限合伙)-吉富另类共赢1号私募证券投资基金 ---
+2025-12-04 14:02:39.766 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 深圳市吉富启瑞投资合伙企业(有限合伙)-吉富另类共赢1号私募证券投资基金 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%90%89%E5%AF%8C%E5%90%AF%E7%91%9E%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29-%E5%90%89%E5%AF%8C%E5%8F%A6%E7%B1%BB%E5%85%B1%E8%B5%A21%E5%8F%B7%E7%A7%81%E5%8B%9F%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91
+2025-12-04 14:02:39.770 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:39.771 | INFO     | __main__:main:196 - --- 开始处理 324/3228: 芜湖长哲投资中心(有限合伙) ---
+2025-12-04 14:02:42.939 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 芜湖长哲投资中心(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E8%8A%9C%E6%B9%96%E9%95%BF%E5%93%B2%E6%8A%95%E8%B5%84%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:42.944 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:42.944 | INFO     | __main__:main:196 - --- 开始处理 325/3228: 湘潭星耀企业管理合伙企业(有限合伙) ---
+2025-12-04 14:02:44.850 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 湘潭星耀企业管理合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B9%98%E6%BD%AD%E6%98%9F%E8%80%80%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:44.854 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:44.855 | INFO     | __main__:main:196 - --- 开始处理 326/3228: 北京盛高丰科技发展中心(有限合伙) ---
+2025-12-04 14:02:47.285 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 北京盛高丰科技发展中心(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%8C%97%E4%BA%AC%E7%9B%9B%E9%AB%98%E4%B8%B0%E7%A7%91%E6%8A%80%E5%8F%91%E5%B1%95%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:47.289 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:47.290 | INFO     | __main__:main:196 - --- 开始处理 327/3228: 上海宏翼私募基金管理有限公司-宏翼一号私募证券投资基金 ---
+2025-12-04 14:02:48.845 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海宏翼私募基金管理有限公司-宏翼一号私募证券投资基金 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E5%AE%8F%E7%BF%BC%E7%A7%81%E5%8B%9F%E5%9F%BA%E9%87%91%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E5%AE%8F%E7%BF%BC%E4%B8%80%E5%8F%B7%E7%A7%81%E5%8B%9F%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91
+2025-12-04 14:02:48.846 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:48.846 | INFO     | __main__:main:196 - --- 开始处理 328/3228: 上海宏翼私募基金管理有限公司-宏翼红林2号私募证券投资基金 ---
+2025-12-04 14:02:51.689 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 上海宏翼私募基金管理有限公司-宏翼红林2号私募证券投资基金 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E4%B8%8A%E6%B5%B7%E5%AE%8F%E7%BF%BC%E7%A7%81%E5%8B%9F%E5%9F%BA%E9%87%91%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E5%AE%8F%E7%BF%BC%E7%BA%A2%E6%9E%972%E5%8F%B7%E7%A7%81%E5%8B%9F%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91
+2025-12-04 14:02:51.694 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:51.694 | INFO     | __main__:main:196 - --- 开始处理 329/3228: 长沙湘江资产管理有限公司 ---
+2025-12-04 14:02:53.862 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 长沙湘江资产管理有限公司 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E9%95%BF%E6%B2%99%E6%B9%98%E6%B1%9F%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+2025-12-04 14:02:53.867 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:53.868 | INFO     | __main__:main:196 - --- 开始处理 330/3228: 深圳市招平领航投资中心(有限合伙) ---
+2025-12-04 14:02:55.193 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 深圳市招平领航投资中心(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%8B%9B%E5%B9%B3%E9%A2%86%E8%88%AA%E6%8A%95%E8%B5%84%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:55.194 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:55.194 | INFO     | __main__:main:196 - --- 开始处理 331/3228: 深圳市招平拓扑万投资合伙企业(有限合伙) ---
+2025-12-04 14:02:56.432 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 深圳市招平拓扑万投资合伙企业(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%8B%9B%E5%B9%B3%E6%8B%93%E6%89%91%E4%B8%87%E6%8A%95%E8%B5%84%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:56.434 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:56.435 | INFO     | __main__:main:196 - --- 开始处理 332/3228: 北京德为高昇科技发展中心(有限合伙) ---
+2025-12-04 14:02:58.024 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 北京德为高昇科技发展中心(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E5%8C%97%E4%BA%AC%E5%BE%B7%E4%B8%BA%E9%AB%98%E6%98%87%E7%A7%91%E6%8A%80%E5%8F%91%E5%B1%95%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:58.027 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:58.028 | INFO     | __main__:main:196 - --- 开始处理 333/3228: 步步昇高(北京)科技发展中心(有限合伙) ---
+2025-12-04 14:02:59.772 | ERROR    | __main__:query_legal_person_with_path:148 - 请求 步步昇高(北京)科技发展中心(有限合伙) 时发生网络错误: 406 Client Error: Blocked for url: https://www.tianyancha.com/nsearch?key=%E6%AD%A5%E6%AD%A5%E6%98%87%E9%AB%98%28%E5%8C%97%E4%BA%AC%29%E7%A7%91%E6%8A%80%E5%8F%91%E5%B1%95%E4%B8%AD%E5%BF%83%28%E6%9C%89%E9%99%90%E5%90%88%E4%BC%99%29
+2025-12-04 14:02:59.774 | INFO     | __main__:append_results_to_csv:84 - 💾 结果已追加写入 tianyancha_results.csv
+2025-12-04 14:02:59.775 | INFO     | __main__:main:196 - --- 开始处理 334/3228: 海南浦高投资中心(有限合伙) ---

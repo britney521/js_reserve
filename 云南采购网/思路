@@ -1,0 +1,3 @@
+请求 网站 http://www.yngp.com/page/procurement/procurementList.html 会返回js代码
+
+执行js代码 得到结果是 需要计算 x08c924 的值 填入 #waf_answer 在提交form 表单 也就是post请求的answer 得到 PYCCS 值

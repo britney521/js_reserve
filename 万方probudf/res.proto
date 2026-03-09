@@ -1,0 +1,372 @@
+syntax = "proto3";
+
+package com.wanfangdata;
+
+// 搜索响应消息
+message SearchResponse {
+  bool status = 1;                    // 状态，默认false
+  string message = 2;                 // 消息，默认空字符串
+  int64 count = 3;                    // 计数，默认0
+  repeated Resource resourcesList = 4; // 资源列表
+  repeated string groupCustomList = 5; // 自定义分组列表
+}
+
+// 原始按钮消息
+message OriginButton {
+  int32 type = 1;                     // 按钮类型，默认0
+  repeated ThirdParty thirdpartyList = 2; // 第三方列表
+  string info = 3;                    // 信息，默认空字符串
+  string typeName = 4;                // 类型名称，默认空字符串
+}
+
+// 第三方消息（需要进一步定义）
+message ThirdParty {
+    string url = 1;
+    string showname = 2;
+    string platform = 4;
+    string id = 5;
+}
+
+// 资源消息 - 包含多种类型的资源
+message Resource {
+  string type = 1;                    // 资源类型，默认空字符串
+  repeated OriginButton originbuttonsList = 2; // 原始按钮列表
+  string uid = 3;                     // 唯一标识，默认空字符串
+
+  // 可选的资源类型（根据type字段决定哪个有效）
+  Claw claw = 4;
+  Conference conference = 5;
+  Cstad cstad = 6;
+  Magazine magazine = 7;
+  Meeting meeting = 8;
+  Nstr nstr = 9;
+  Patent patent = 10;
+  Periodical periodical = 11;
+  Standard standard = 12;
+  Thesis thesis = 13;
+  ThesisCatalog thesiscatalog = 14;
+  Video video = 15;
+  LocalChronicle localchronicle = 16;
+  LocalChronicleItem localchronicleitem = 17;
+  Book book = 18;
+}
+
+// 抓取资源
+message Claw {
+  string id = 1;                      // ID，默认空字符串
+  string type = 2;                    // 类型，默认空字符串
+  repeated string titleList = 3;      // 标题列表
+  repeated string issueunitList = 4;  // 发布单位列表
+  string issuenumber = 5;             // 发布编号，默认空字符串
+  string singlesourcedb = 12;         // 单源数据库，默认空字符串
+  int32 publishyear = 31;             // 发布年份，默认0
+  string dbid = 26;                   // 数据库ID，默认空字符串
+  int32 downloadcount = 28;           // 下载次数，默认0
+}
+
+// 会议资源
+message Conference {
+  string id = 1;                      // ID，默认空字符串
+  string type = 2;                    // 类型，默认空字符串
+  repeated string titleList = 3;      // 标题列表
+  repeated string creatorList = 4;    // 创建者列表
+  repeated string organizationnormList = 8;  // 规范化组织列表
+  repeated string originalorganizationList = 10; // 原始组织列表
+  repeated string classcodeList = 12; // 分类代码列表
+  repeated string keywordsList = 16;  // 关键词列表
+  repeated string foreignkeywordsList = 17; // 外文关键词列表
+  repeated string machinedkeywordsList = 18; // 机器关键词列表
+  repeated string keywordforsearchList = 19; // 搜索关键词列表
+  repeated string abstractList = 20;  // 摘要列表
+  int32 citedcount = 21;              // 引用次数，默认0
+  int32 servicemode = 26;             // 服务模式，默认0
+  bool hasfulltext = 27;              // 是否有全文，默认false
+  int32 publishyear = 28;             // 发布年份，默认0
+  string pageno = 30;                 // 页码，默认空字符串
+  string fulltextpath = 31;           // 全文路径，默认空字符串
+  string doi = 32;                    // DOI，默认空字符串
+  repeated string authororgList = 33; // 作者机构列表
+  repeated string thirdpartyurlList = 34; // 第三方URL列表
+  string language = 35;               // 语言，默认空字符串
+  repeated string meetingtitleList = 37; // 会议标题列表
+  string meetingyear = 40;            // 会议年份，默认空字符串
+  int32 metadataviewcount = 43;       // 元数据查看次数，默认0
+  int32 thirdpartylinkclickcount = 44; // 第三方链接点击次数，默认0
+  int32 downloadcount = 45;           // 下载次数，默认0
+  int32 exportcount = 46;             // 导出次数，默认0
+  int32 delivercount = 63;            // 交付次数，默认0
+  string singlesourcedb = 47;         // 单源数据库，默认空字符串
+}
+
+// Cstad资源
+message Cstad {
+  string id = 1;                      // ID，默认空字符串
+  string type = 2;                    // 类型，默认空字符串
+  repeated string titleList = 3;      // 标题列表
+  repeated string creatorList = 4;    // 创建者列表
+  repeated string organizationList = 27; // 组织列表
+  repeated string classcodeList = 29; // 分类代码列表
+  repeated string abstractList = 32;  // 摘要列表
+  repeated string keywordsList = 33;  // 关键词列表
+  int32 publishyear = 35;             // 发布年份，默认0
+  string achievementtype = 38;        // 成果类型，默认空字符串
+  repeated string tradenameList = 42; // 商品名称列表
+  string province = 46;               // 省份，默认空字符串
+}
+
+// 杂志资源
+message Magazine {
+  string id = 1;                      // ID，默认空字符串
+  repeated string titleList = 2;      // 标题列表
+  string issn = 13;                   // ISSN，默认空字符串
+  string cn = 14;                     // CN，默认空字符串
+  string introduction = 21;           // 介绍，默认空字符串
+  repeated string classcodeList = 22; // 分类代码列表
+  string editorial = 23;              // 编辑部，默认空字符串
+  repeated string sponsorList = 26;   // 主办单位列表
+  repeated string coreperiodicalList = 32; // 核心期刊列表
+  double impactfactor = 33;           // 影响因子，默认0
+  int32 articleno = 34;               // 文章编号，默认0
+  int32 downloadcount = 35;           // 下载次数，默认0
+  int32 citedcount = 36;              // 引用次数，默认0
+  repeated string coreperiodicalyearList = 44; // 核心期刊年份列表
+}
+
+// 会议资源（另一个）
+message Meeting {
+  string id = 1;                      // ID，默认空字符串
+  repeated string titleList = 2;      // 标题列表
+  string initial = 3;                 // 首字母，默认空字符串
+  repeated string sponsorList = 4;    // 主办单位列表
+  repeated string sponsortypeList = 5; // 主办类型列表
+  string no = 6;                      // 编号，默认空字符串
+  string level = 7;                   // 级别，默认空字符串
+  string venue = 8;                   // 地点，默认空字符串
+  repeated string classcodeList = 9;  // 分类代码列表
+  repeated string seriesList = 10;    // 系列列表
+  string date = 11;                   // 日期，默认空字符串
+  int32 year = 12;                    // 年份，默认0
+  int32 citedcount = 13;              // 引用次数，默认0
+  int32 downloadcount = 14;           // 下载次数，默认0
+  int32 articleno = 15;               // 文章编号，默认0
+  repeated string searchfieldList = 16; // 搜索字段列表
+}
+
+// Nstr资源
+message Nstr {
+  string id = 1;                      // ID，默认空字符串
+  repeated string titleList = 2;      // 标题列表
+  repeated string creatorList = 3;    // 创建者列表
+  repeated string organizationList = 5; // 组织列表
+  repeated string classcodeList = 7;  // 分类代码列表
+  repeated string keywordsList = 8;   // 关键词列表
+  repeated string foreignkeywordsList = 9; // 外文关键词列表
+  repeated string abstractList = 11;  // 摘要列表
+  string reportrange = 19;            // 报告范围，默认空字符串
+  string approvaldate = 21;           // 批准日期，默认空字符串
+  string pagenum = 24;                // 页数，默认空字符串
+  string language = 26;               // 语言，默认空字符串
+  string type = 31;                   // 类型，默认空字符串
+  string preparationtime = 27;        // 准备时间，默认空字符串
+  string singlesourcedb = 36;         // 单源数据库，默认空字符串
+  repeated string obtainwayList = 49; // 获取方式列表
+  string thirdpartyurl = 54;          // 第三方URL，默认空字符串
+  bool isoa = 55;                     // 是否OA，默认false
+  string dbtype = 56;                 // 数据库类型，默认空字符串
+}
+
+// 专利资源
+message Patent {
+  string id = 1;                      // ID，默认空字符串
+  repeated string titleList = 2;      // 标题列表
+  string patentcode = 3;              // 专利代码，默认空字符串
+  string publicationno = 4;           // 公布号，默认空字符串
+  repeated string inventorList = 5;   // 发明人列表
+  repeated string applicantList = 7;  // 申请人列表
+  repeated string classcodeList = 10; // 分类代码列表
+  repeated string abstractList = 12;  // 摘要列表
+  string patenttype = 13;             // 专利类型，默认空字符串
+  string singlesourcedb = 14;         // 单源数据库，默认空字符串
+  string applicationdate = 15;        // 申请日期，默认空字符串
+  string publicationdate = 16;        // 公布日期，默认空字符串
+  string countryorganization = 17;    // 国家/组织，默认空字符串
+  string language = 24;               // 语言，默认空字符串
+  string fulltextpath = 25;           // 全文路径，默认空字符串
+  bool hasfulltext = 26;              // 是否有全文，默认false
+  string type = 27;                   // 类型，默认空字符串
+  int32 downloadcount = 31;           // 下载次数，默认0
+  bool hasxml = 48;                   // 是否有XML，默认false
+  string oldpatentcode = 53;          // 旧专利代码，默认空字符串
+  string pubdocdb = 56;               // 公布文档数据库，默认空字符串
+}
+
+// 期刊资源
+message Periodical {
+  string id = 1;                      // ID，默认空字符串
+  repeated string titleList = 2;      // 标题列表
+  repeated string creatorList = 3;    // 创建者列表
+  repeated string scholaridList = 5;  // 学者ID列表
+  repeated string foreigncreatorList = 6; // 外文创建者列表
+  repeated string organizationnormList = 8; // 规范化组织列表
+  repeated string originalorganizationList = 10; // 原始组织列表
+  repeated string originalclasscodeList = 12; // 原始分类代码列表
+  repeated string keywordsList = 16;  // 关键词列表
+  repeated string foreignkeywordsList = 17; // 外文关键词列表
+  repeated string abstractList = 20;  // 摘要列表
+  int32 citedcount = 21;              // 引用次数，默认0
+  string periodicalid = 22;           // 期刊ID，默认空字符串
+  repeated string periodicaltitleforsearchList = 23; // 搜索用期刊标题列表
+  repeated string periodicaltitleList = 24; // 期刊标题列表
+  bool isoa = 26;                     // 是否OA，默认false
+  int32 servicemode = 31;             // 服务模式，默认0
+  bool hasfulltext = 32;              // 是否有全文，默认false
+  int32 publishyear = 33;             // 发布年份，默认0
+  string issue = 34;                  // 期号，默认空字符串
+  string pageno = 37;                 // 页码，默认空字符串
+  repeated string coreperiodicalList = 39; // 核心期刊列表
+  string fulltextpath = 40;           // 全文路径，默认空字符串
+  string doi = 41;                    // DOI，默认空字符串
+  repeated string authororgList = 42; // 作者机构列表
+  repeated string thirdpartyurlList = 43; // 第三方URL列表
+  string language = 44;               // 语言，默认空字符串
+  string issn = 45;                   // ISSN，默认空字符串
+  int32 metadataviewcount = 48;       // 元数据查看次数，默认0
+  int32 thirdpartylinkclickcount = 49; // 第三方链接点击次数，默认0
+  int32 downloadcount = 50;           // 下载次数，默认0
+  int32 exportcount = 56;             // 导出次数，默认0
+  int32 delivercount = 70;            // 交付次数，默认0
+  string publishstatus = 53;          // 发布状态，默认空字符串
+  string type = 54;                   // 类型，默认空字符串
+  repeated string singlesourcedbList = 55; // 单源数据库列表
+  repeated string sourcedbList = 25;  // 源数据库列表
+  repeated string sourcedbstatusList = 79; // 源数据库状态列表
+  repeated string obtainwayList = 74; // 获取方式列表
+  string dbtype = 81;                 // 数据库类型，默认空字符串
+  bool ismultisource = 82;            // 是否多源，默认false
+}
+
+// 标准资源
+message Standard {
+  string id = 1;                      // ID，默认空字符串
+  repeated string titleList = 2;      // 标题列表
+  repeated string draftscompList = 3; // 起草单位列表
+  repeated string drafterList = 51;   // 起草人列表
+  repeated string issueorganizationList = 6; // 发布组织列表
+  string status = 7;                  // 状态，默认空字符串
+  repeated string classcodeList = 8;  // 分类代码列表
+  repeated string keywordsList = 10;  // 关键词列表
+  repeated string foreignkeywordsList = 11; // 外文关键词列表
+  repeated string abstractList = 13;  // 摘要列表
+  repeated string sourcedbList = 15;  // 源数据库列表
+  string standardorganization = 18;   // 标准组织，默认空字符串
+  string originalid = 31;             // 原始ID，默认空字符串
+  string singlesourcedb = 35;         // 单源数据库，默认空字符串
+  string publishdate = 36;            // 发布日期，默认空字符串
+  string standardtype = 17;           // 标准类型，默认空字符串
+  string isforce = 19;                // 是否强制，默认空字符串
+  bool hasfulltext = 21;              // 是否有全文，默认false
+  string language = 23;               // 语言，默认空字符串
+  string type = 29;                   // 类型，默认空字符串
+  string pageno = 34;                 // 页码，默认空字符串
+  int32 downloadcount = 39;           // 下载次数，默认0
+}
+
+// 论文资源
+message Thesis {
+  string id = 1;                      // ID，默认空字符串
+  string type = 2;                    // 类型，默认空字符串
+  repeated string titleList = 3;      // 标题列表
+  repeated string creatorList = 4;    // 创建者列表
+  repeated string organizationnormList = 6; // 规范化组织列表
+  repeated string originalorganizationList = 8; // 原始组织列表
+  repeated string classcodeList = 10; // 分类代码列表
+  repeated string keywordsList = 14;  // 关键词列表
+  repeated string foreignkeywordsList = 15; // 外文关键词列表
+  repeated string machinedkeywordsList = 16; // 机器关键词列表
+  repeated string abstractList = 18;  // 摘要列表
+  int32 citedcount = 19;              // 引用次数，默认0
+  int32 servicemode = 24;             // 服务模式，默认0
+  bool hasfulltext = 25;              // 是否有全文，默认false
+  int32 publishyear = 26;             // 发布年份，默认0
+  string pageno = 27;                 // 页码，默认空字符串
+  string fulltextpath = 28;           // 全文路径，默认空字符串
+  string doi = 29;                    // DOI，默认空字符串
+  string degree = 30;                 // 学位，默认空字符串
+  string language = 31;               // 语言，默认空字符串
+  string major = 34;                  // 专业，默认空字符串
+  repeated string thirdpartyurlList = 35; // 第三方URL列表
+  int32 metadataviewcount = 37;       // 元数据查看次数，默认0
+  int32 thirdpartylinkclickcount = 38; // 第三方链接点击次数，默认0
+  int32 downloadcount = 39;           // 下载次数，默认0
+  int32 exportcount = 41;             // 导出次数，默认0
+  int32 delivercount = 55;            // 交付次数，默认0
+  bool hascatolog = 42;               // 是否有目录，默认false
+  string singlesourcedb = 43;         // 单源数据库，默认空字符串
+  string dbtype = 58;                 // 数据库类型，默认空字符串
+}
+
+// 论文目录资源
+message ThesisCatalog {
+  string id = 1;                      // ID，默认空字符串
+  string title = 2;                   // 标题，默认空字符串
+  string contents = 3;                // 内容，默认空字符串
+}
+
+// 视频资源
+message Video {
+  string id = 1;                      // ID，默认空字符串
+  repeated string titleList = 2;      // 标题列表
+  string creator = 4;                 // 创建者，默认空字符串
+  repeated string organizationList = 5; // 组织列表
+  string videosid = 6;                // 视频ID，默认空字符串
+  repeated string keywordsList = 7;   // 关键词列表
+  int32 publishyear = 8;              // 发布年份，默认0
+  string duration = 9;                // 时长，默认空字符串
+  string type = 17;                   // 类型，默认空字符串
+}
+
+// 地方志资源
+message LocalChronicle {
+  string id = 2;                      // ID，默认空字符串
+  string title = 3;                   // 标题，默认空字符串
+  repeated string editorList = 6;     // 编辑列表
+  repeated string publisherList = 7;  // 出版商列表
+  repeated string keywordsList = 21;  // 关键词列表
+  string volume = 22;                 // 卷号，默认空字符串
+  string dbid = 28;                   // 数据库ID，默认空字符串
+  string pb_abstract = 33;            // 摘要，默认空字符串
+  string publishdate = 35;            // 发布日期，默认空字符串
+  int32 downloadcount = 39;           // 下载次数，默认0
+  string type = 41;                   // 类型，默认空字符串
+  string singlesourcedb = 42;         // 单源数据库，默认空字符串
+}
+
+// 地方志条目资源
+message LocalChronicleItem {
+  string id = 1;                      // ID，默认空字符串
+  string title = 2;                   // 标题，默认空字符串
+  string booktitle = 5;               // 书名，默认空字符串
+  repeated string editorList = 9;     // 编辑列表
+  string publishdate = 11;            // 发布日期，默认空字符串
+  string province = 18;               // 省份，默认空字符串
+  string page = 23;                   // 页码，默认空字符串
+  string dbid = 48;                   // 数据库ID，默认空字符串
+  int32 downloadcount = 54;           // 下载次数，默认0
+  string singlesourcedb = 56;         // 单源数据库，默认空字符串
+  string type = 57;                   // 类型，默认空字符串
+}
+
+// 图书资源
+message Book {
+  string id = 1;                      // ID，默认空字符串
+  string title = 2;                   // 标题，默认空字符串
+  repeated string creatorList = 3;    // 创建者列表
+  string publisher = 5;               // 出版商，默认空字符串
+  string publisherlocation = 7;       // 出版地，默认空字符串
+  repeated string isbnList = 8;       // ISBN列表
+  int32 publishyear = 34;             // 出版年份，默认0
+  string pagenum = 24;                // 页数，默认空字符串
+  repeated string thirdpartyurlList = 25; // 第三方URL列表
+  string type = 31;                   // 类型，默认空字符串
+  string singlesourcedb = 36;         // 单源数据库，默认空字符串
+}

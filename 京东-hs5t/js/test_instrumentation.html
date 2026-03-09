@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParamsSign Instrumentation Test</title>
+</head>
+<body>
+    <h1>ParamsSign VM Instrumentation Test</h1>
+    <div id="output"></div>
+
+    <script src="hs5t.js"></script>
+    <script>
+        // Test script for ParamsSign instrumentation
+        function runTest() {
+            const output = document.getElementById('output');
+
+            try {
+                // Create a ParamsSign instance
+                const signer = new ParamsSign();
+
+                // Test data
+                const testData = {
+                    appid: 'test_app',
+                    body: 'test_body',
+                    clientVersion: '1.0.0',
+                    client: 'test_client'
+                };
+
+                // Enable tracing
+                window.vm_trace_enabled = true;
+                window.vm_trace = [];
+
+                output.innerHTML += '<p>Starting VM instrumentation test...</p>';
+
+                // Sign the data
+                const result = signer.signSync(testData);
+
+                output.innerHTML += '<p>Signing result: ' + result + '</p>';
+                output.innerHTML += '<p>VM trace length: ' + window.vm_trace.length + '</p>';
+
+                if (window.vm_trace.length > 0) {
+                    output.innerHTML += '<p>First 20 trace entries:</p><ul>';
+                    window.vm_trace.slice(0, 20).forEach((entry, i) => {
+                        output.innerHTML += `<li>${i}: opcode=${entry.opcode}, stack_length=${entry.stack_length}, pc=${entry.pc}</li>`;
+                    });
+                    output.innerHTML += '</ul>';
+                } else {
+                    output.innerHTML += '<p>No VM trace captured</p>';
+                }
+
+            } catch (error) {
+                output.innerHTML += '<p>Error: ' + error.message + '</p>';
+                console.error('Error:', error);
+            }
+        }
+
+        // Run test when page loads
+        window.onload = runTest;
+    </script>
+</body>
+</html>
