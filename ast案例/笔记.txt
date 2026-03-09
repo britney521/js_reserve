@@ -1,0 +1,43 @@
+scope.path 就是拿到当前作用域块儿的path，
+path.scope.path.toString()
+path.scope.block 可以理解为是 path的Node。是作用域所在块的Node
+path.scope.parent 就是返回上一级的作用域，也是一个 Scope对象
+path.scope.parentPath 就是返回上一级的path，也是一个 path对象
+path.scope.parent.path.toString() // 当前这个再上一级就是全部了，它就没有 parent了
+path.scope.bindings  返回一个 对象，这个对象的 key，就是变量名，value 是一个 Binding对象
+path.scope.getAllBindings() 获取所有绑定对象
+path.scope.getBinding("a") 获取绑定对象
+path.insertAfter 插入节点后
+path.insertBefore  插入节点前
+path.getSibling    获取key 获取节点
+path.getPrevSibling  前一个节点
+path.getAllPrevSiblings  所有前面兄弟节点
+path.getNextSibling  后一个节点
+path.getAllNextSibling 后面兄弟节点
+path.evaluate
+path.parent  父节点node
+path.parentPath  父节点 path
+path.findParent 找父节点
+
+
+
+我们在babel 里面，就直接把 Binging对象理解为是 作用域里面的
+
+我们简单看一下
+path.scope.bindings.g
+
+这个binding对象里面就有比较多的说法了，它有针对这个变量的非常非常多的信息
+首先：
+referenced ---> 是否被引用
+referencePaths 引用的path
+references 引用次数
+path  这个变量的path
+identifier 这个变量的node
+hasValue 是否有值
+kind 变量类型，也可以理解为标识符类型 （参数 param/let/var/const）
+constantViolations  标识符（变量名）如果被修改，会存到这个里面
+hasValue 该绑定是否有值。（目前为止我用它都是设个标点，以便快速检索。）
+
+
+我们也可以利用 path.scope.rename 去重命名所有的变量
+也可以利用作用域的 path.scope.generateUidIdentifier("_0xabcdef") 来创建一个不重复的 Identifier

@@ -1,0 +1,5 @@
+node --inspect-brk index.js
+
+edge://inspect
+
+RegExp.prototype.test = function(){return true}
